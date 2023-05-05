@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: terminology-svc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: terminology-svc
+  template:
+    metadata:
+      labels:
+        app: terminology-svc
+    spec:
+      containers:
+      - name: terminology-svc
+        image: gravitate-registry.cr.de-fra.ionos.com/terminology
+        ports:
+        - containerPort: 3000

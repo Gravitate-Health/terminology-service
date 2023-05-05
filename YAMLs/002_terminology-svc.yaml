@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: terminology-svc
+  annotations:
+    prometheus.io/scrape: 'true'
+    prometheus.io/port: '3000'
+spec:
+  selector:
+    app: terminology-svc
+  ports:
+  - protocol: TCP
+    port: 3000
+    targetPort: 3000
+  type: ClusterIP
