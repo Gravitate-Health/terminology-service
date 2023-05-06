@@ -16,7 +16,11 @@ app.use(express.urlencoded({
 
 app.use('/problem-list', problemListRoutes);
 app.use('/allergies', allergiesListRoutes);
-app.use('/intollerances',intolleranceRoutes );
+app.use('/intollerances',intolleranceRoutes);
+
+app.get('/', (req, res) => {
+  res.send({msg : "Test endpoint for the icpc2 terminology service"});
+});
 
 
 app.listen(PORT,'0.0.0.0', () => {

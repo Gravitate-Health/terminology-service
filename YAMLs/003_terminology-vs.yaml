@@ -10,7 +10,7 @@ spec:
   http:
   - match:
     - uri:
-        prefix: /terminologies/icpc-2
+        prefix: /terminologies/icpc2/
     route:
     - destination:
         host: terminology-svc.default.svc.cluster.local
