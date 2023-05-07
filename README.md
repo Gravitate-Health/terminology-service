@@ -67,6 +67,11 @@ Enviroment variables
 
 Usage
 -----
+
+
+FOSPS swagger with all the routes avaible [here](https://fosps.gravitatehealth.eu/swagger-fosps/?urls.primaryName=Terminology%20Service)
+
+
 There is 3 endpoint avaible on [GET] \<base-url>/
 
 | Endpoint       | Description                                   |
@@ -80,33 +85,33 @@ For each endpoint there is the /all function that gets every condition with the 
 
 - /problem-list/all
 ```JSON
-...
+
     {
         "Health problem": "HIV-infection/AIDS",
         "ICPC-2": "B90 HIV-infection/AIDS",
         "URL": "https://www.rxreasoner.com/icpc2codes/B90"
-    },
-...
+    }
+
 
 ```
 - /allergies 
 ```JSON
-...
+
     {
         "Allergy": "Allergy to tree nut",
         "SNOMED-SCITD": "48821000119104"
-    },
-...
+    }
+
 
 ```
 - /intollerances 
 ```JSON
-...
+
     {
         "Intollerance": "Intolerance to lactose",
         "SNOMED-SCITD": "782415009"
-    },
-...
+    }
+
 
 ```
 

@@ -11,6 +11,8 @@ spec:
   - match:
     - uri:
         prefix: /terminologies/icpc2/
+    rewrite:
+        uri: "/"
     route:
     - destination:
         host: terminology-svc.default.svc.cluster.local

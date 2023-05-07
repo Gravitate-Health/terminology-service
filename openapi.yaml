@@ -1,0 +1,86 @@
+openapi: "3.0.1"
+info:
+  title: Terminology list 
+  version: MVP2
+  description: |-
+    Gravitate Health ICPC2 short list at the moment.
+    
+    Link to the [Terminology service](https://github.com/Gravitate-Health/terminology-service) repo.
+  contact: {}
+servers:
+  - url: https://fosps.gravitatehealth.eu
+paths:
+
+  /terminologies/icpc2/problem-list/all:
+    get:
+      tags:
+        - Problem List
+      description: List a list of every health problem avaible in the database.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/health-problem"
+    
+  /terminologies/icpc2/allergies/all:
+    get:
+      tags:
+        - Allergies
+      description: Lists all the allergies avaible in the database.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/allergy"
+                
+  /terminologies/icpc2/intollerances/all:
+    get:
+      tags:
+        - Intollerances
+      description: Lists all the intollerances avaible in the database.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/intollerance"
+components:
+  schemas:
+  
+    health-problem:
+      type: object
+      properties:
+        "Health problem":
+          type: string
+          example: "HIV-infection/AIDS"
+        "ICPC-2":
+          type: string
+          example: "B90 HIV-infection/AIDS"
+        "URL":
+          type: string
+          example: "https://www.rxreasoner.com/icpc2codes/B90"
+          
+    allergy:
+      type: object
+      properties:
+        "Allergy":
+          type: string
+          example: "Allergy to tree nut"
+        "SNOMED-SCITD":
+          type: string
+          example: "48821000119104"
+          
+    intollerance:
+      type: object
+      properties:
+        "Intollerance":
+          type: string
+          example: "Intolerance to lactose"
+        "SNOMED-SCITD":
+          type: string
+          example: "782415009"
