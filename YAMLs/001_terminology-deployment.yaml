@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: terminology-svc
-        image: gravitate-registry.cr.de-fra.ionos.com/terminology:test
+        image: gravitate-registry.cr.de-fra.ionos.com/terminology:dev
         imagePullPolicy: Always
         ports:
         - containerPort: 3000

@@ -3,6 +3,7 @@ const express = require('express');
 const problemListRoutes = require('./routes/problem-list');
 const allergiesListRoutes = require('./routes/allergies');
 const intolleranceRoutes = require('./routes/intollerance');
+const pregnancyRoutes = require('./routes/pregnancy');
 
 
 const app = express();
@@ -14,9 +15,10 @@ app.use(express.urlencoded({
   extended: true
 }));
 
-app.use('/problem-list', problemListRoutes);
-app.use('/allergies', allergiesListRoutes);
-app.use('/intollerances',intolleranceRoutes);
+app.use('/icpc2/problem-list', problemListRoutes);
+app.use('/snomed/allergies', allergiesListRoutes);
+app.use('/snomed/intollerances',intolleranceRoutes);
+app.use('/snomed/pregnancy',pregnancyRoutes);
 
 app.get('/', (req, res) => {
   res.send({msg : "Test endpoint for the icpc2 terminology service"});
