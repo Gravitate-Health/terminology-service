@@ -16,6 +16,7 @@ app.use(express.urlencoded({
 }));
 
 app.use('/icpc2/problem-list', problemListRoutes);
+
 app.use('/snomed/allergies', allergiesListRoutes);
 app.use('/snomed/intollerances',intolleranceRoutes);
 app.use('/snomed/pregnancy',pregnancyRoutes);

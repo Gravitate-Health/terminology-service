@@ -1,0 +1,1001 @@
+ID,Label international (english),Etiqueta internacional (español)
+ 420134006,Propensity to adverse reactions,propensión a experimentar reacciones adversas
+  21626009,Cutaneous hypersensitivity,hipersensibilidad cutánea
+  25744000,Hereditary gastrogenic lactose intolerance,intolerancia familiar a la lactosa grave
+  54250004,Lactose intolerance in children without lactase deficiency,intolerancia a lactosa en niños sin deficiencia de lactasa
+  59037007,Drug intolerance,intolerancia medicamentosa
+  61712006,Transient gluten sensitivity,intolerancia transitoria al gluten
+  72354005,Oral contraceptive intolerance,intolerancia a anticonceptivo oral
+  91931000,Allergy to erythromycin,alergia a eritromicina
+  91932007,Allergy to fruit,alergia a fruta
+  91934008,Nut allergy,alergia a fruto seco o alimento con frutos secos
+  91935009,Allergy to peanuts,alergia a maní
+  91936005,Allergy to penicillin,alergia a penicilina
+  91937001,Allergy to seafood,alergia a alimento de origen marino
+  91938006,Allergy to strawberries,alergia a fresa
+  91939003,Allergy to sulfonamides,alergia a sulfamida
+  91940001,Allergy to walnut, alergia a nuez
+  190751001,Primary lactose intolerance,intolerancia primaria a la lactosa
+  213020009,Egg protein allergy,alergia a proteína del huevo
+  232349006,House dust allergy,alergia a polvo doméstico
+  232350006,House dust mite allergy,alergia a proteína de ácaros del polvo
+  235719002,Food intolerance,intolerancia alimentaria
+  293584003,Paracetamol allergy,alergia a paracetamol
+  293585002,Salicylate allergy,alergia a salicilato
+  293586001,Aspirin allergy,alergia a aspirina
+  293588000,Pentazocine allergy,alergia a pentazocina
+  293589008,Phenazocine allergy,alergia a fenazocina
+  293590004,Methadone analog allergy,alergia a análogo de metadona
+  293591000,Dextromoramide allergy,alergia a dextromoramida
+  293592007,Dextropropoxyphene allergy,alergia a dextropropoxifeno
+  293593002,Dipipanone allergy,alergia a dipipanona
+  293594008,Methadone allergy,alergia a metadona
+  293595009,Morphinan opioid allergy,alergia a opioide morfinano
+  293596005,Buprenorphine allergy,alergia a buprenorfina
+  293597001,Codeine allergy,alergia a codeína
+  293598006,Diamorphine allergy,alergia a diamorfina
+  293599003,Dihydrocodeine allergy,alergia a dihidrocodeína
+  293600000,Nalbuphine allergy,alergia a nalbufina
+  293601001,Morphine allergy,alergia a morfina
+  293602008,Opium alkaloid allergy,alergia a alcaloide del opio
+  293603003,Pethidine analog allergy,alergia a análogo de la petidina
+  293604009,Alfentanil allergy,alergia a alfentanilo
+  293605005,Fentanyl allergy,alergia a fentanilo
+  293606006,Pethidine allergy,alergia a petidina
+  293607002,Phenoperidine allergy,alergia a fenoperidina
+  293608007,Meptazinol allergy,alergia a meptazinol
+  293609004,Levorphanol allergy,alergia a levorfanol
+  293610009,Non-steroidal anti-inflammatory drug allergy,alergia a fármaco antiinflamatorio no esteroide
+  293611008,Acemetacin allergy,alergia a acemetacina
+  293612001,Azapropazone allergy,alergia a azapropazona
+  293613006,Diclofenac allergy,alergia a diclofenaco
+  293614000,Etodolac allergy,alergia a etodolaco
+  293615004,Felbinac allergy,alergia a felbinaco
+  293616003,Fenbufen allergy,alergia a fenbufén
+  293617007,Fenoprofen allergy,alergia a fenoprofeno
+  293618002,Flurbiprofen allergy,alergia a flurbiprofeno
+  293619005,Ibuprofen allergy,alergia a ibuprofeno
+  293620004,Indomethacin allergy,alergia a indometacina
+  293621000,Ketoprofen allergy,alergia a ketoprofeno
+  293622007,Ketorolac allergy,alergia a ketorolac
+  293623002,Mefenamic acid allergy,alergia a ácido mefenámico
+  293624008,Nabumetone allergy,alergia a nabumetona
+  293625009,Naproxen allergy,alergia a naproxeno
+  293626005,Nefopam allergy,alergia a nefopam
+  293627001,Oxyphenbutazone allergy,alergia a oxifenbutazona
+  293628006,Phenylbutazone allergy,alergia a fenilbutazona
+  293629003,Piroxicam allergy,alergia a piroxicam
+  293630008,Sulindac allergy,alergia a sulindac
+  293631007,Tenoxicam allergy,alergia a tenoxicam
+  293632000,Tiaprofenic acid allergy,alergia a ácido tiaprofénico
+  293633005,Tolmetin allergy,alergia a tolmetina
+  293635003,Tuberculin allergy,alergia a tuberculina
+  293636002,Radiopharmaceutical allergy,alergia a radiofármaco
+  293637006,Contrast media allergy,alergia a medio de contraste
+  293645001,Bismuth chelate allergy,alergia a quelato de bismuto
+  293646000,Sucralfate allergy,alergia a sucralfato
+  293647009,Liquorice allergy,alergia a regaliz
+  293648004,Misoprostol allergy,alergia a misoprostol
+  293649007,H2 receptor antagonist allergy,alergia a antagonista del receptor H2
+  293650007,Cimetidine allergy,alergia a cimetidina
+  293651006,Famotidine allergy,alergia a famotidina
+  293652004,Nizatidine allergy,alergia a nizatidina
+  293653009,Ranitidine allergy,alergia a ranitidina
+  293654003,Proton pump inhibitor allergy,alergia a fármaco inhibidor de la bomba de protone
+  293655002,Omeprazole allergy,alergia a omeprazol
+  293656001,Lansoprazole allergy,alergia a lansoprazol
+  293657005,Carbenoxolone allergy,alergia a carbenoxolona
+  293658000,Pirenzepine allergy,alergia a pirenzepina
+  293659008,Pancreatin allergy,alergia a pancreatina
+  293660003,5-aminosalicylic acid allergy,alergia a mesalamina
+  293662006,Olsalazine allergy,alergia a olsalazina
+  293663001,Sulfasalazine allergy,alergia a sulfasalazina
+  293665008,Magnesium trisilicate allergy,alergia a trisilicato de magnesio
+  293666009,Aluminium hydroxide allergy,alergia a hidróxido de aluminio
+  293668005,Loperamide allergy,alergia a loperamida
+  293669002,Kaolin allergy,alergia a caolín
+  293671002,Cisapride allergy,alergia a cisaprida
+  293673004,Nabilone allergy,alergia a nabilona
+  293674005,Domperidone allergy,alergia a domperidona
+  293675006,Metoclopramide allergy,alergia a metoclopramida
+  293676007,5-HT3-receptor antagonist allergy,alergia a antagonista de receptor de 5-HT3
+  293678008,Bisacodyl allergy,alergia a bisacodilo
+  293679000,Danthron allergy,alergia a dantrón
+  293680002,Sodium picosulfate allergy,alergia a picosulfato de sodio
+  293681003,Lactulose allergy,alergia a lactulosa
+  293682005,Magnesium sulfate allergy,alergia a sulfato de magnesio
+  293685007,Cascara allergy,alergia a la cáscara sagrada
+  293686008,Senna allergy,alergia a sen
+  293687004,Docusate allergy,alergia a docusato
+  293690005,Peppermint oil allergy,alergia a aceite de menta
+  293691009,Alverine allergy,alergia a alverina
+  293692002,Mebeverine allergy,alergia a mebeverina
+  293693007,Dicyclomine allergy,alergia a diciclomina
+  293694001,Mepenzolate allergy,alergia a mepenzolato
+  293695000,Pipenzolate allergy,alergia a pipenzolato
+  293696004,Poldine allergy,alergia a poldina
+  293697008,Propantheline allergy,alergia a propantelina
+  293699006,Chenodeoxycholic acid allergy,alergia a ácido quenodeoxicólico
+  293700007,Dehydrocholic acid allergy,alergia a ácido dehidrocólico
+  293701006,Ursodeoxycholic acid allergy,alergia a ácido ursodeoxicólico
+  293706001,Etomidate allergy,alergia a etomidato
+  293707005,Ketamine allergy,alergia a ketamina
+  293708000,Propofol allergy,alergia a propofol
+  293709008,Thiopentone allergy,alergia a tiopental
+  293710003,Methohexitone allergy,alergia a metohexital
+  293712006,Enflurane allergy,alergia a enflurano
+  293714007,Halothane allergy,alergia a halotano
+  293715008,Isoflurane allergy,alergia a isoflurano
+  293716009,Trichloroethylene allergy,alergia a tricloroetileno
+  293717000,Desflurane allergy,alergia a desflurano
+  293718005,Local anesthetic drug allergy,alergia a fármaco anestésico local
+  293719002,Bupivacaine allergy,alergia a bupivacaína
+  293720008,Cinchocaine allergy,alergia a cincocaína
+  293721007,Prilocaine allergy,alergia a prilocaína
+  293722000,Lignocaine allergy,alergia a la lignocaína
+  293723005,Cocaine allergy,alergia a cocaína
+  293724004,Benzocaine allergy,alergia a benzocaína
+  293725003,Amethocaine allergy,alergia a ametocaína
+  293726002,Oxybuprocaine allergy,alergia a oxibuprocaína
+  293727006,Procaine allergy,alergia a procaína
+  293728001,Proxymetacaine allergy,alergia a proximetacaína
+  293732007,Amifostine allergy,alergia a amifostina
+  293733002,Aldesleukin allergy,alergia a aldesleukina
+  293735009,Molgramostim allergy,alergia a molgramostim
+  293736005,Lenograstim allergy,alergia a lenograstim
+  293737001,Filgrastim allergy,alergia a filgrastim
+  293738006,Levamisole allergy,alergia a levamisol
+  293740001,Alkylating drug allergy,alergia a agente alquilante
+  293741002,Mitobronitol allergy,alergia a mitobronitol
+  293742009,Busulfan allergy,alergia a busulfano
+  293743004,Treosulfan allergy,alergia a treosulfano
+  293745006,Thiotepa allergy,alergia a tiotepa
+  293746007,Nitrogen mustard derivative allergy,alergia a derivado de mostaza nitrogenada
+  293747003,Chlorambucil allergy,alergia a clorambucilo
+  293748008,Cyclophosphamide allergy,alergia a ciclofosfamida
+  293749000,Ethoglucid allergy,alergia a etoglúcido
+  293750000,Ifosfamide allergy,alergia a ifosfamida
+  293751001,Melphalan allergy,alergia a melfalán
+  293752008,Estramustine allergy,alergia a estramustina
+  293753003,Mustine allergy,alergia a mustina
+  293754009,Nitrosurea allergy,alergia a nitrosourea
+  293755005,Carmustine allergy,alergia a carmustina
+  293756006,Lomustine allergy,alergia a lomustina
+  293758007,Dacarbazine allergy,alergia a dacarbazina
+  293760009,Dactinomycin allergy,alergia a dactinomicina
+  293761008,Bleomycin allergy,alergia a bleomicina
+  293762001,Mitomycin allergy,alergia a mitomicina
+  293763006,Plicamycin allergy,alergia a plicamicina
+  293764000,Aclarubicin allergy,alergia a aclarubicina
+  293765004,Mitozantrone allergy,alergia a mitoxantrona
+  293766003,Doxorubicin allergy,alergia a doxorubicina
+  293767007,Epirubicin allergy,alergia a epirrubicina
+  293768002,Idarubicin allergy,alergia a idarubicina
+  293770006,Mercuric oxide allergy,alergia a óxido mercúrico
+  293771005,Methotrexate allergy,alergia a metotrexato
+  293772003,Mercaptopurine allergy,alergia a mercaptopurina
+  293773008,Thioguanine allergy,alergia a tioguanina
+  293774002,Pentostatin allergy,alergia a pentostatina
+  293775001,Cytarabine allergy,alergia a citarabina
+  293776000,Fluorouracil allergy,alergia a fluorouracilo
+  293777009,Etoposide allergy,alergia a etopósido
+  293778004,Amsacrine allergy,alergia a amsacrina
+  293779007,Carboplatin allergy,alergia a carboplatino
+  293780005,Cisplatin allergy,alergia a cisplatino
+  293781009,Hydroxyurea allergy,alergia a hidroxiurea
+  293782002,Procarbazine allergy,alergia a procarbazina
+  293783007,Razoxane allergy,alergia a razoxano
+  293784001,Crisantaspase allergy,alergia a crisantaspasa
+  293785000,Paclitaxel allergy,alergia a paclitaxel
+  293786004,Fludarabine allergy,alergia a fludarabina
+  293787008,Aminoglutethimide allergy,alergia a aminoglutetimida
+  293788003,Oestrogen antagonist allergy,alergia a antagonista de receptor estrogénico
+  293789006,Trilostane allergy,alergia a trilostano
+  293790002,Tamoxifen allergy,alergia a tamoxifeno
+  293791003,Formestane allergy,alergia a formestano
+  293792005,Vinca alkaloid allergy,alergia a alcaloide de la vinca
+  293793000,Vinblastine allergy,alergia a vinblastina
+  293794006,Vincristine allergy,alergia a vincristina
+  293795007,Vindesine allergy,alergia a vindesina
+  293796008,Dimethyl sulfoxide allergy,alergia a dimetilsulfóxido
+  293798009,Cyclosporin allergy,alergia a ciclosporina
+  293799001,Azathioprine allergy,alergia a azatioprina
+  293802005,Mazindol allergy,alergia a mazindol
+  293803000,Phentermine allergy,alergia a fentermina
+  293804006,Dexfenfluramine allergy,alergia a dexfenfluramina
+  293805007,Diethylpropion allergy,alergia a anfepramona
+  293806008,Fenfluramine allergy,alergia a fenfluramina
+  293808009,Levodopa allergy,alergia a levodopa
+  293811005,Amantadine allergy,alergia a amantadina
+  293812003,Apomorphine allergy,alergia a apomorfina
+  293813008,Lysuride allergy,alergia a lisurida
+  293814002,Pergolide allergy,alergia a pergolida
+  293815001,Bromocriptine allergy,alergia a bromocriptina
+  293818004,Lithium carbonate allergy,alergia a carbonato de litio
+  293819007,Lithium citrate allergy,alergia a citrato de litio
+  293822009,Butriptyline allergy,alergia a butriptilina
+  293823004,Doxepin allergy,alergia a doxepina
+  293824005,Iprindole allergy,alergia a iprindol
+  293825006,Lofepramine allergy,alergia a lofepramina
+  293826007,Nortriptyline allergy,alergia a nortriptilina
+  293827003,Trimipramine allergy,alergia a trimipramina
+  293828008,Amoxapine allergy,alergia a amoxapina
+  293829000,Amitriptyline allergy,alergia a amitriptilina
+  293830005,Clomipramine allergy,alergia a clomipramina
+  293831009,Desipramine allergy,alergia a desipramina
+  293832002,Dothiepin allergy,alergia a dotiepina
+  293833007,Imipramine allergy,alergia a imipramina
+  293834001,Protriptyline allergy,alergia a protriptilina
+  293835000,Monoamine oxidase inhibitor allergy,alergia a inhibidor de monoaminoxidasa
+  293836004,Phenelzine allergy,alergia a fenelzina
+  293837008,Iproniazid allergy,alergia a iproniazida
+  293838003,Isocarboxazid allergy,alergia a isocarboxazida
+  293839006,Tranylcypromine allergy,alergia a tranilcipromina
+  293840008,Moclobemide allergy,alergia a moclobemida
+  293842000,Tryptophan allergy,alergia a triptófano
+  293843005,Venlafaxine allergy,alergia a venlafaxina
+  293844004,Selective serotonin re-uptake inhibitor allergy,alergia a inhibidor selectivo de la recaptación de serotonina
+  293845003,Sertraline allergy,alergia a sertralina
+  293847006,Paroxetine allergy,alergia a paroxetina
+  293848001,Nefazodone allergy,alergia a nefazodona
+  293849009,Citalopram allergy,alergia a citalopram
+  293850009,Fluoxetine allergy,alergia a fluoxetina
+  293851008,Fluvoxamine allergy,alergia a fluvoxamina
+  293853006,Maprotiline allergy,alergia a maprotilina
+  293854000,Mianserin allergy,alergia a mianserina
+  293855004,Trazodone allergy,alergia a trazodona
+  293856003,Viloxazine allergy,alergia a viloxazina
+  293858002,Beclamide allergy,alergia a beclamida
+  293859005,Lamotrigine allergy,alergia a lamotrigina
+  293860000,Piracetam allergy,alergia a piracetam
+  293861001,Gabapentin allergy,alergia a gabapentina
+  293864009,Methylphenobarbitone allergy,alergia a metilfenobarbital
+  293865005,Phenobarbitone allergy,alergia a fenobarbital
+  293866006,Primidone allergy,alergia a primidona
+  293867002,Carbamazepine allergy,alergia a carbamazepina
+  293868007,Vigabatrin allergy,alergia a vigabatrina
+  293869004,Phenytoin allergy,alergia a fenitoína
+  293870003,Ethosuximide allergy,alergia a etosuximida
+  293871004,Clonazepam allergy,alergia a clonazepam
+  293874007,Zopiclone allergy,alergia a zopiclona
+  293875008,Zolpidem allergy,alergia a zolpidem
+  293876009,Chlormezanone allergy,alergia a clormezanona
+  293877000,Methyprylone allergy,alergia a metiprilón
+  293878005,Paraldehyde allergy,alergia a paraldehído
+  293880004,Amylobarbitone allergy,alergia a amilobarbital
+  293881000,Butobarbitone allergy,alergia a butobarbital
+  293882007,Cyclobarbitone allergy,alergia a ciclobarbital
+  293884008,Quinalbarbitone allergy,alergia a secobarbital
+  293886005,Flunitrazepam allergy,alergia a flunitrazepam
+  293887001,Flurazepam allergy,alergia a flurazepam
+  293888006,Loprazolam allergy,alergia a loprazolam
+  293889003,Lormetazepam allergy,alergia a lormetazepam
+  293890007,Nitrazepam allergy,alergia a nitrazepam
+  293891006,Triazolam allergy,alergia a triazolam
+  293892004,Alprazolam allergy,alergia a alprazolam
+  293893009,Bromazepam allergy,alergia a bromazepam
+  293894003,Chlordiazepoxide allergy,alergia a clordiazepóxido
+  293895002,Clobazam allergy,alergia a clobazam
+  293897005,Ketazolam allergy,alergia a ketazolam
+  293898000,Medazepam allergy,alergia a medazepam
+  293899008,Oxazepam allergy,alergia a oxazepam
+  293900003,Prazepam allergy,alergia a prazepam
+  293901004,Midazolam allergy,alergia a midazolam
+  293902006,Diazepam allergy,alergia a diazepam
+  293903001,Lorazepam allergy,alergia a lorazepam
+  293904007,Temazepam allergy,alergia a temazepam
+  293906009,Meprobamate allergy,alergia a meprobamato
+  293908005,Chloral hydrate allergy,alergia a hidrato de cloral
+  293909002,Dichloralphenazone allergy,alergia a dicloralfenazona
+  293911006,Buspirone allergy,alergia a buspirona
+  293912004,Chlormethiazole allergy,alergia a clormetiazol
+  293914003,Sulpiride allergy,alergia a sulpirida
+  293915002,Loxapine allergy,alergia a loxapina
+  293916001,Clozapine allergy,alergia a clozapina
+  293917005,Risperidone allergy,alergia a risperidona
+  293918000,Tetrabenazine allergy,alergia a tetrabenazina
+  293919008,Butyrophenone allergy,alergia a butirofenona
+  293920002,Benperidol allergy,alergia a benperidol
+  293921003,Trifluperidol allergy,alergia a trifluperidol
+  293923000,Droperidol allergy,alergia a droperidol
+  293924006,Haloperidol allergy,alergia a haloperidol
+  293925007,Diphenylbutylpiperidine allergy,alergia a difenilbutilpiperidina
+  293926008,Pimozide allergy,alergia a pimozida
+  293927004,Fluspirilene allergy,alergia a fluspirileno
+  293928009,Phenothiazine allergy,alergia a fenotiazina
+  293929001,Methotrimeprazine allergy,alergia a levomepromazina
+  293930006,Pericyazine allergy,alergia a periciazina
+  293933008,Thiethylperazine allergy,alergia a tietilperazina
+  293934002,Fluphenazine allergy,alergia a flufenazina
+  293935001,Chlorpromazine allergy,alergia a clorpromazina
+  293936000,Pipothiazine allergy,alergia a pipotiazina
+  293937009,Promazine allergy,alergia a promazina
+  293938004,Thioridazine allergy,alergia a tioridazina
+  293939007,Perphenazine allergy,alergia a perfenazina
+  293940009,Prochlorperazine allergy,alergia a proclorperazina
+  293941008,Trifluoperazine allergy,alergia a trifluoperazina
+  293942001,Thioxanthene allergy,alergia a tioxanteno
+  293943006,Chlorprothixene allergy,alergia a clorprotixeno
+  293946003,Zuclopenthixol allergy,alergia a zuclopentixol
+  293948002,Flupenthixol allergy,alergia a flupentixol
+  293949005,Oxypertine allergy,alergia a la oxipertina
+  293950005,Remoxipride allergy,alergia a remoxiprida
+  293952002,Selegiline allergy,alergia a selegilina
+  293954001,Pemoline allergy,alergia a pemolina
+  293955000,Methylphenidate allergy,alergia a metilfenidato
+  293956004,Prolintane allergy,alergia a prolintano
+  293957008,Amphetamine group allergy,alergia a anfetamina y/o derivado de anfetamina
+  293958003,Dexamphetamine allergy,alergia a dexanfetamina
+  293960001,Disulfiram allergy,alergia a disulfiram
+  293962009,Beta-adrenoceptor blocking drug allergy,alergia a antagonista de receptor beta adrenérgico
+  293963004,Cardioselective beta-blocker allergy,alergia a antagonista de receptor adrenérgico beta-1
+  293964005,Acebutolol allergy,alergia a acebutolol
+  293965006,Atenolol allergy,alergia a atenolol
+  293966007,Betaxolol allergy,alergia a betaxolol
+  293967003,Bisoprolol allergy,alergia a bisoprolol
+  293968008,Celiprolol allergy,alergia a celiprolol
+  293969000,Esmolol allergy,alergia a esmolol
+  293970004,Metoprolol allergy,alergia a metoprolol
+  293972007,Nadolol allergy,alergia a nadolol
+  293973002,Pindolol allergy,alergia a pindolol
+  293974008,Carvedilol allergy,alergia a carvedilol
+  293975009,Metipranolol allergy,alergia a metipranolol
+  293976005,Carteolol allergy,alergia a carteolol
+  293977001,Labetalol allergy,alergia a labetalol
+  293978006,Levobunolol allergy,alergia a levobunolol
+  293979003,Oxprenolol allergy,alergia a oxprenolol
+  293980000,Penbutolol allergy,alergia a penbutolol
+  293981001,Practolol allergy,lergia a practolol
+  293982008,Propranolol allergy,alergia a propranolol
+  293983003,Sotalol allergy,alergia a sotalol
+  293984009,Timolol allergy,alergia a timolol
+  293985005,Alpha-adrenoceptor blocking drug allergy,alergia a antagonista de receptor adrenérgico alfa
+  293986006,Alfuzosin allergy,alergia a alfuzosina
+  293987002,Doxazosin allergy,alergia a doxazosina
+  293988007,Indoramin allergy,alergia a indoramina
+  293989004,Phenoxybenzamine allergy,alergia a fenoxibenzamina
+  293990008,Phentolamine allergy,alergia a fentolamina
+  293991007,Prazosin allergy,alergia a prazosina
+  293992000,Terazosin allergy,alergia a terazosina
+  293993005,Nicotine allergy,alergia a nicotina
+  293994004,Calcium-channel blocker allergy,alergia a fármaco bloqueante de los canales del calcio
+  293995003,Lidoflazine allergy,alergia a lidoflazina
+  293996002,Nifedipine allergy,alergia a nifedipina
+  293997006,Prenylamine allergy,alergia a prenilamina
+  293998001,Isradipine allergy,alergia a isradipina
+  293999009,Felodipine allergy,alergia a felodipino
+  294000006,Lacidipine allergy,alergia a lacidipino
+  294001005,Nimodipine allergy,alergia a nimodipino
+  294002003,Amlodipine allergy,alergia a amlodipina
+  294003008,Diltiazem allergy,alergia a diltiazem
+  294004002,Nicardipine allergy,alergia a nicardipino
+  294005001,Verapamil allergy,alergia a verapamilo
+  294007009,Pilocarpine allergy,alergia a pilocarpina
+  294009007,Methacholine allergy,alergia a metacolina
+  294011003,Physostigmine allergy,alergia a fisostigmina
+  294012005,Demecarium allergy,alergia a demecario
+  294013000,Distigmine allergy,alergia a distigmina
+  294014006,Ecothiopate allergy,alergia a ecotiopato
+  294015007,Edrophonium allergy,alergia a edrofonio
+  294016008,Pyridostigmine allergy,alergia a piridostigmina
+  294017004,Neostigmine allergy,alergia a neostigmina
+  294018009,Bethanechol allergy,alergia a betanecol
+  294019001,Carbachol allergy,alergia a carbacol
+  294023009,Pseudoephedrine allergy,alergia a pseudoefedrina
+  294024003,Alpha-adrenoceptor agonist allergy,alergia a agonista de receptor alfa-adrenérgico
+  294026001,Metaraminol allergy,alergia a metaraminol
+  294027005,Methoxamine allergy,alergia a metoxamina
+  294028000,Naphazoline allergy,alergia a nafazolina
+  294029008,Noradrenaline allergy,alergia a norepinefrina
+  294030003,Phenylephrine allergy,alergia a fenilefrina
+  294031004,Xylometazoline allergy,alergia a xilometazolina
+  294033001,Selective beta-2 adrenoceptor stimulants allergy,alergia a agonista de receptor adrenérgico beta 2
+  294035008,Pirbuterol allergy,alergia a pirbuterol
+  294036009,Salmeterol allergy,alergia a salmeterol
+  294037000,Salbutamol allergy,alergia a salbutamol
+  294038005,Bambuterol allergy,alergia a bambuterol
+  294039002,Fenoterol allergy,alergia a fenoterol
+  294040000,Orciprenaline allergy,alergia a orciprenalina
+  294041001,Reproterol allergy,alergia a reproterol
+  294042008,Rimiterol allergy,alergia a rimiterol
+  294043003,Ritodrine allergy,alergia a ritodrina
+  294044009,Terbutaline allergy,alergia a terbutalina
+  294045005,Tulobuterol allergy,alergia a tulobuterol
+  294047002,Dobutamine allergy,alergia a dobutamina
+  294048007,Dopexamine allergy,alergia a dopexamina
+  294050004,Isoprenaline allergy,alergia a isoprenalina
+  294055009,Methyldopa allergy,alergia a metildopa
+  294057001,Apraclonidine allergy,alergia a apraclonidina
+  294058006,Clonidine allergy,alergia a clonidina
+  294059003,Lofexidine allergy,alergia a lofexidina
+  294060008,Dipivefrine allergy,alergia a dipivefrina
+  294061007,Dopamine allergy,alergia a dopamina
+  294062000,Ephedrine allergy,alergia a efedrina
+  294063005,Oxymetazoline allergy,alergia a oximetazolina
+  294064004,Xamoterol allergy,alergia a xamoterol
+  294067006,Belladonna alkaloids allergy,alergia a alcaloide de la belladona
+  294069009,Biperiden allergy,alergia a biperideno
+  294073007,Tropicamide allergy,alergia a tropicamida
+  294074001,Hyoscine allergy,alergia a hioscina
+  294076004,Atropine allergy,alergia a atropina
+  294077008,Benzhexol allergy,alergia al benzhexol
+  294078003,Benztropine allergy,alergia a benzatropina
+  294079006,Cyclopentolate allergy,alergia a ciclopentolato
+  294080009,Glycopyrronium allergy,alergia a glicopirronio
+  294081008,Homatropine allergy,alergia a homatropina
+  294082001,Ipratropium allergy,alergia a ipratropio
+  294083006,Methixene allergy,alergia a metixeno
+  294084000,Orphenadrine allergy,alergia a orfenadrina
+  294087007,Oxitropium allergy,alergia a oxitropio
+  294088002,Oxybutynin allergy,alergia a oxibutinina
+  294089005,Procyclidine allergy,alergia a prociclidina
+  294091002,Dornase alfa allergy,alergia a dornasa alfa
+  294093004,Tyloxapol allergy,alergia a tiloxapol
+  294095006,Carbocisteine allergy,alergia a carbocisteína
+  294096007,Methylcysteine allergy,alergia a metilcisteína
+  294097003,Acetylcysteine allergy,alergia a acetilcisteína
+  294099000,Nikethamide allergy,alergia a niquetamida
+  294100008,Ethamivan allergy,alergia a etamiván
+  294101007,Doxapram allergy,alergia a doxapram
+  294103005,Beractant allergy,alergia a beractant
+  294105003,Pumactant allergy,alergia a pumactant
+  294106002,Colfosceril allergy,alergia a colfoscerilo
+  294109009,H1 antihistamine allergy,alergia a antagonista de receptor de histamina H1
+  294111000,Astemizole allergy,alergia a astemizol
+  294112007,Terfenadine allergy,alergia a terfenadina
+  294113002,Acrivastine allergy,alergia a acrivastina
+  294114008,Loratadine allergy,alergia a loratadina
+  294115009,Azelastine allergy,alergia a azelastina
+  294116005,Cetirizine allergy,alergia a cetirizina
+  294118006,Clemastine allergy,alergia a clemastina
+  294119003,Mebhydrolin allergy,alergia a mebhidrolina
+  294120009,Mequitazine allergy,alergia a la mequitazina
+  294121008,Oxatomide allergy,alergia a oxatomida
+  294122001,Cyclizine allergy,alergia a ciclizina
+  294123006,Dimenhydrinate allergy,alergia a dimenhidrinato
+  294125004,Antazoline allergy,alergia a antazolina
+  294126003,Promethazine allergy,alergia a prometazina
+  294127007,Azatadine allergy,alergia a azatadina
+  294128002,Brompheniramine allergy,alergia a bromfeniramina
+  294129005,Chlorpheniramine allergy,alergia a clorfenamina
+  294130000,Cinnarizine allergy,alergia a cinarizina
+  294131001,Cyproheptadine allergy,alergia a ciproheptadina
+  294132008,Dimethindene allergy,alergia a dimetindeno
+  294133003,Diphenhydramine allergy,alergia a difenhidramina
+  294134009,Diphenylpyraline allergy,alergia a difenilpiralina
+  294135005,Hydroxyzine allergy,alergia a hidroxizina
+  294136006,Mepyramine allergy,alergia a mepiramina
+  294137002,Phenindamine allergy,alergia a fenindamina
+  294138007,Pheniramine allergy,alergia a feniramina
+  294139004,Triprolidine allergy,alergia a triprolidina
+  294140002,Trimeprazine allergy,alergia a trimeprazina
+  294142005,Nedocromil allergy,alergia a nedocromilo
+  294144006,Ketotifen allergy,alergia a ketotifeno
+  294145007,Lodoxamide allergy,alergia a lodoxamida
+  294148009,Isoaminile allergy,alergia a isoaminilo
+  294152009,Noscapine allergy,alergia a noscapina
+  294153004,Pholcodine allergy,alergia a folcodina
+  294157003,Xanthine allergy,alergia a xantina
+  294158008,Aminophylline allergy,alergia a aminofilina
+  294160005,Theophylline allergy,alergia a teofilina
+  294168003,Calamine allergy,alergia a calamina
+  294169006,Coal tar allergy,alergia a alquitrán de hulla
+  294172004,Bufexamac allergy,alergia a bufexamaco
+  294173009,Dithranol allergy,alergia a ditranol
+  294177005,Ichthammol allergy,alergia a ictamol
+  294178000,Calcipotriol allergy,alergia a calcipotriol
+  294180006,Azelaic acid allergy,alergia a ácido azelaico
+  294182003,Podophyllum resin allergy,alergia a resina de podófilo
+  294183008,Podophyllotoxin allergy,alergia a podofilotoxina
+  294189007,Surgical tissue adhesive allergy,alergia a adhesivo tisular de uso quirúrgico
+  294190003,Enbucrilate allergy,alergia a enbucrilato
+  294191004,Collodion allergy,alergia a colodión
+  294200004,Crotamiton allergy,alergia a crotamitón
+  294203002,Benzoyl peroxide allergy,alergia a peróxido de benzoilo
+  294204008,Silver nitrate allergy,alergia a nitrato de plata
+  294206005,Gamolenic acid allergy,alergia a ácido gamolénico
+  294207001,Retinoid allergy,alergia a retinoide
+  294208006,Etretinate allergy,alergia a etretinato
+  294209003,Acitretin allergy,alergia a acitretina
+  294210008,Tretinoin allergy,alergia a tretinoína
+  294211007,Isotretinoin allergy,alergia a isotretinoína
+  294214004,Colchicum alkaloid allergy,alergia a alcaloide del cólquico
+  294215003,Colchicine allergy,alergia a colchicina
+  294217006,Probenecid allergy,alergia a probenecid
+  294218001,Sulphinpyrazone allergy,alergia a sulfinpirazona
+  294219009,Xanthine oxidase inhibitor allergy,alergia a inhibidor de xantina oxidasa
+  294220003,Allopurinol allergy,alergia a alopurinol
+  294224007,Suxamethonium allergy,alergia a suxametonio
+  294225008,Non-depolarising muscle relaxant allergy,alergia a miorrelajante no despolarizante
+  294226009,Mivacurium allergy,alergia a mivacurio
+  294227000,Alcuronium allergy,alergia a alcuronio
+  294228005,Atracurium allergy,alergia a atracurio
+  294229002,Gallamine allergy,alergia a galamina
+  294230007,Pancuronium allergy,alergia a pancuronio
+  294231006,Tubocurarine allergy,alergia a tubocurarina
+  294232004,Vecuronium allergy,alergia a vecuronio
+  294233009,Rocuronium allergy,alergia a rocuronio
+  294234003,Baclofen allergy,alergia a baclofeno
+  294235002,Carisoprodol allergy,alergia a carisoprodol
+  294236001,Methocarbamol allergy,alergia a metocarbamol
+  294237005,Dantrolene allergy,alergia a dantroleno
+  294238000,Gold allergy,alergia a oro
+  294239008,Sodium aurothiomalate allergy,alergia a aurotiomalato de sodio
+  294240005,Auranofin allergy,alergia a auranofina
+  294242002,Papaverine allergy,alergia a papaverina
+  294243007,Flavoxate allergy,alergia a flavoxato
+  294245000,Mifepristone allergy,alergia a mifepristona
+  294246004,Non-ionic surfactant allergy,alergia a surfactante no iónico
+  294247008,Nonoxinol allergy,alergia a nonoxinol
+  294248003,Octoxinol allergy,alergia a octoxinol
+  294249006,Prostaglandin allergy,alergia a prostaglandina
+  294250006,A series prostaglandin allergy,"alergia a prostaglandina, serie A"
+  294252003,E series prostaglandin allergy,"alergia a prostaglandina, serie E"
+  294253008,Dinoprostone allergy,alergia a dinoprostona
+  294254002,Gemeprost allergy,alergia a gemeprost
+  294255001,Alprostadil allergy,alergia a alprostadilo
+  294256000,F series prostaglandin allergy,"alergia a prostaglandina, serie F"
+  294257009,Dinoprost allergy,alergia a dinoprost
+  294258004,Carboprost allergy,alergia a carboprost
+  294259007,I series prostaglandin allergy,"alergia a prostaglandina, serie I"
+  294260002,Epoprostenol allergy,alergia a epoprostenol
+  294261003,Terpenes allergy,alergia a terpeno
+  294264006,Ipecacuanha allergy,alergia a ipecacuana
+  294265007,Charcoal-activated allergy,alergia a carbón activado
+  294266008,Sodium nitrite allergy,alergia a nitrito de sodio
+  294268009,Digoxin-specific-antibody allergy,alergia a fragmento fab inmunitario antidigoxina
+  294269001,Mesna allergy,alergia a mesna
+  294270000,Benzodiazepine antagonist allergy,alergia a antagonista de receptor de benzodiazepina
+  294271001,Flumazenil allergy,alergia a flumazenil
+  294273003,Pralidoxime allergy,alergia a pralidoxima
+  294275005,Opioid antagonist allergy,alergia a antagonista opioide
+  294276006,Naltrexone allergy,alergia a naltrexona
+  294277002,Naloxone allergy,alergia a naloxona
+  294278007,Protamine allergy,alergia a protamina
+  294280001,Allergy to Fullers earth,alergia a tierra de Fulle
+  294281002,Allergy to bentonite,alergia a bentonita
+  294283004,Dimercaprol allergy,alergia a dimercaprol
+  294284005,Desferrioxamine allergy,alergia a deferoxamina
+  294285006,Edetate allergy,alergia a edetato
+  294290009,Trientine allergy,alergia a trientina
+  294291008,Penicillamine allergy,alergia a penicilamina
+  294298002,Glycine allergy,alergia a glicina
+  294299005,Dialysis fluid allergy,alergia a líquido de diálisis
+  294306008,Dimethyl-ether propane allergy,alergia a dimetil-éter propano
+  294316000,Olive oil allergy,alergia a aceite de oliva
+  294317009,Arachis oil allergy,alergia a aceite de maní
+  294318004,Castor oil allergy,alergia a aceite de castor
+  294320001,Glycerol allergy,alergia a glicerol
+  294324005,Paraffin allergy,alergia a parafina
+  294327003,Liquid paraffin allergy,alergia a parafina líquida
+  294328008,Silicone allergy,alergia a silicona
+  294329000,Dimethicone allergy,alergia a dimeticona
+  294330005,Wool alcohol allergy,alergia a alcohol de lanolina
+  294332002,Polyvinyl alcohol allergy,alergia a alcohol polivinílico
+  294333007,Carbomer-940 allergy,alergia a carbómero 940
+  294335000,Hypromellose allergy,alergia a hipromelosa
+  294337008,Hydroxyethylcellulose allergy,alergia a hidroxietilcelulosa
+  294339006,Carmellose allergy,alergia a carmelosa
+  294341007,Flucytosine allergy,alergia a flucitosina
+  294342000,Terbinafine allergy,alergia a terbinafina
+  294343005,Nitrophenol allergy,alergia a nitrofenol
+  294344004,Tolnaftate allergy,alergia a tolnaftato
+  294346002,Amorolfine allergy,alergia a amorolfina
+  294348001,Griseofulvin allergy,alergia a griseofulvina
+  294349009,Amphotericin allergy,alergia a amfotericina
+  294350009,Natamycin allergy,alergia a natamicina
+  294351008,Nystatin allergy,alergia a nistatina
+  294354000,Allergy to undecenoate,alergia a undecenoato
+  294356003,Clotrimazole allergy,alergia a clotrimazol
+  294357007,Fenticonazole allergy,alergia a fenticonazol
+  294358002,Tioconazole allergy,alergia a tioconazol
+  294359005,Econazole allergy,alergia a econazol
+  294360000,Isoconazole allergy,alergia a isoconazol
+  294361001,Sulconazole allergy,alergia a sulconazol
+  294362008,Ketoconazole allergy,alergia a ketoconazol
+  294363003,Miconazole allergy,alergia a miconazol
+  294365005,Fluconazole allergy,alergia a fluconazol
+  294366006,Itraconazole allergy,alergia a itraconazol
+  294368007,Inosine pranobex allergy,alergia a inosina pranobex
+  294369004,Zidovudine allergy,alergia a zidovudina
+  294370003,Ganciclovir allergy,alergia a ganciclovir
+  294371004,Famciclovir allergy,alergia a famciclovir
+  294372006,Didanosine allergy,alergia a didanosina
+  294373001,Zalcitabine allergy,alergia a zalcitabina
+  294374007,Valaciclovir allergy,alergia a valaciclovir
+  294375008,Interferons allergy,alergia a interferón
+  294376009,Human interferon gamma-1b allergy,alergia a interferón humano gamma-1b
+  294377000,Interferon-A-2a allergy,alergia a interferón alfa-2a
+  294378005,Interferon-A-2b allergy,alergia a interferón alfa-2b
+  294379002,Interferon-A-N1 allergy,alergia a interferón alfa-n1
+  294380004,Tribavirin allergy,lergia a ribavirina
+  294381000,Trifluorothymidine allergy,alergia a trifluorotimidina
+  294382007,Foscarnet allergy,alergia a foscarnet
+  294383002,Vidarabine allergy,alergia a vidarabina
+  294384008,Aciclovir allergy,alergia a aciclovir
+  294385009,Idoxuridine allergy,alergia a idoxuridina
+  294388006,Pyrimethamine allergy,alergia a pirimetamina
+  294390007,Amodiaquine allergy,alergia a amodiaquina
+  294391006,Primaquine allergy,alergia a primaquina
+  294392004,Mefloquine allergy,alergia a mefloquina
+  294393009,Hydroxychloroquine allergy,alergia a hidroxicloroquina
+  294394003,Chloroquine allergy,alergia a cloroquina
+  294396001,Proguanil allergy,alergia a proguanil
+  294398000,Quinine allergy,alergia a quinina
+  294399008,Halofantrine allergy,alergia a halofantrina
+  294400001,Mepacrine allergy,alergia a quinacrina
+  294404005,Acetic acid allergy,alergia a ácido acético
+  294405006,Hydrargaphen allergy,alergia a hidrargafeno
+  294406007,Polynoxylin allergy,alergia a polinoxilina
+  294407003,Hexetidine allergy,alergia a hexetidina
+  294408008,Sodium perborate allergy,alergia a perborato de sodio
+  294413007,Thymol allergy,alergia a timol
+  294415000,Chloroxylenol allergy,alergia a cloroxilenol
+  294416004,Hexachlorophane allergy,alergia a hexaclorofeno
+  294417008,Triclosan allergy,alergia a triclosán
+  294418003,Phenol allergy,alergia a fenol
+  294421001,Industrial methylated spirit allergy,alergia a vapor industrial metilado
+  294423003,Glutaraldehyde allergy,alergia a glutaraldehído
+  294425005,Noxythiolin allergy,alergia a noxitiolina
+  294426006,Formaldehyde allergy,alergia a oximetileno
+  294431008,Chlorhexidine allergy,alergia a clorhexidina
+  294433006,Borate allergy,alergia a borato
+  294434000,Boric acid allergy,alergia a ácido bórico
+  294436003,Quaternary ammonium surfactant allergy,alergia a surfactante de amonio cuaternario
+  294437007,Cetrimide allergy,alergia a cetrimida
+  294438002,Benzalkonium allergy,alergia a benzalconio
+  294439005,Domiphen allergy,alergia a domifeno
+  294440007,Quaternary pyridinium surfactant allergy,alergia a surfactante de piridinio cuaternario
+  294441006,Cetylpyridinium allergy,alergia a cetilpiridinio
+  294442004,Quaternary quinolinium surfactant allergy,alergia a surfactante de quinolinio cuaternario
+  294443009,Dequalinium allergy,alergia a decualinio
+  294447005,Crystal violet allergy,alergia a violeta cristal
+  294448000,Brilliant green allergy,alergia a verde brillante
+  294449008,Hydrogen peroxide allergy,alergia a peróxido de hidrógeno
+  294451007,Piperazine allergy,alergia a piperazina
+  294452000,Pyrantel allergy,alergia a pirantel
+  294453005,Niclosamide allergy,alergia a niclosamida
+  294455003,Bephenium allergy,alergia a befenio
+  294456002,Diethylcarbamazine allergy,alergia a dietilcarbamazina
+  294458001,Mebendazole allergy,alergia a mebendazol
+  294459009,Albendazole allergy,alergia a albendazol
+  294460004,Thiabendazole allergy,alergia a tiabendazol
+  294462007,Aminoglycoside allergy,alergia a aminoglucósido
+  294463002,Amikacin allergy,alergia a amikacina
+  294464008,Kanamycin allergy,alergia a kanamicina
+  294465009,Netilmicin allergy,alergia a netilmicina
+  294466005,Streptomycin allergy,alergia a estreptomicina
+  294467001,Framycetin allergy,alergia a framicetina
+  294468006,Neomycin allergy,alergia a neomicina
+  294469003,Gentamicin allergy,alergia a gentamicina
+  294470002,Tobramycin allergy,alergia a tobramicina
+  294471003,Clarithromycin allergy,alergia a claritromicina
+  294472005,Azithromycin allergy,alergia a azitromicina
+  294474006,Spectinomycin allergy,alergia a espectinomicina
+  294475007,Vancomycin allergy,alergia a vancomicina
+  294476008,Teicoplanin allergy,alergia a teicoplanina
+  294477004,Trimethoprim allergy,alergia a trimetoprima
+  294478009,Nitrofurantoin allergy,alergia a nitrofurantoína
+  294480003,Mupirocin allergy,alergia a mupirocina
+  294481004,Nitrofurazone allergy,alergia a nitrofurazona
+  294482006,Fusidic acid allergy,alergia a ácido fusídico
+  294484007,Acrosoxacin allergy,alergia a rosoxacino
+  294485008,Cinoxacin allergy,alergia a la cinoxacina
+  294486009,Nalidixic acid allergy,alergia a ácido nalidíxico
+  294487000,Ciprofloxacin allergy,alergia a ciprofloxacino
+  294488005,Enoxacin allergy,alergia a enoxacina
+  294489002,Ofloxacin allergy,alergia a ofloxacino
+  294490006,Norfloxacin allergy,alergia a norfloxacina
+  294491005,Temafloxacin allergy,alergia a temafloxacina
+  294494002,Benethamine penicillin allergy,alergia a penicilina benetamina
+  294496000,Phenethicillin allergy,alergia a feneticilina
+  294497009,Phenoxymethylpenicillin allergy,alergia a fenoximetilpenicilina
+  294499007,Benzylpenicillin allergy,alergia a bencilpenicilina
+  294501004,Cloxacillin allergy,alergia a cloxacilina
+  294502006,Flucloxacillin allergy,alergia a flucloxacilina
+  294503001,Methicillin allergy,alergia a meticilina
+  294505008,Amoxycillin allergy,alergia a amoxicilina
+  294506009,Ampicillin allergy,alergia a ampicilina
+  294507000,Ciclacillin allergy,alergia a ciclacilina
+  294508005,Mezlocillin allergy,alergia a mezlocilina
+  294509002,Pivampicillin allergy,alergia a pivampicilina
+  294510007,Carbenicillin allergy,alergia a carbenicilina
+  294511006,Bacampicillin allergy,alergia a bacampicilina
+  294512004,Talampicillin allergy,alergia a talampicilina
+  294514003,Temocillin allergy,alergia a temocilina
+  294515002,Piperacillin allergy,alergia a piperacilina
+  294516001,Azlocillin allergy,alergia a azlocilina
+  294517005,Ticarcillin allergy,alergia a ticarcilina
+  294518000,Carfecillin allergy,alergia a carfecilina
+  294519008,Mecillinam allergy,alergia a mecilinam
+  294520002,Pivmecillinam allergy,alergia a pivmecilinam
+  294528009,Polymyxins allergy,alergia a polimixina
+  294529001,Colistin allergy,alergia a colistina
+  294530006,Polymyxin B allergy,lergia a polimixina B
+  294531005,Carbapenem allergy,alergia a carbapenem
+  294532003,Cephalosporin allergy,alergia a cefalosporina
+  294534002,Cefadroxil allergy,alergia a cefadroxilo
+  294535001,Cephalexin allergy,alergia a cefalexina
+  294536000,Cephalothin allergy,alergia a cefalotina
+  294537009,Cephazolin allergy,alergia a cefazolina
+  294538004,Cephradine allergy,alergia a cefradina
+  294539007,Latamoxef allergy,alergia a latamoxef
+  294541008,Cefaclor allergy,alergia a cefaclor
+  294542001,Cefuroxime allergy,alergia a cefuroxima
+  294543006,Cephamandole allergy,alergia a cefamandol
+  294545004,Cefotaxime allergy,alergia a cefotaxima
+  294546003,Ceftazidime allergy,alergia a ceftazidima
+  294547007,Ceftizoxime allergy,alergia a ceftizoxima
+  294548002,Cefixime allergy,alergia a cefixima
+  294549005,Cefodizime allergy,alergia a cefodizima
+  294550005,Cefpodoxime allergy,alergia a cefpodoxima
+  294551009,Ceftriaxone allergy,alergia a ceftriaxona
+  294552002,Ceftibuten allergy,alergia a ceftibuteno
+  294554001,Cefsulodin allergy,alergia a cefsulodina
+  294556004,Cefpirome allergy,alergia a cefpiroma
+  294557008,Cephamycin allergy,alergia a cefamicina
+  294558003,Cefoxitin allergy,alergia a cefoxitina
+  294559006,Fosfomycin allergy,alergia a fosfomicina
+  294561002,Clindamycin allergy,alergia a clindamicina
+  294562009,Lincomycin allergy,alergia a lincomicina
+  294563004,Mandelic acid allergy,alergia a ácido mandélico
+  294564005,Monobactam allergy,alergia a monobactam
+  294565006,Aztreonam allergy,alergia a aztreonam
+  294566007,Nitroimidazole allergy,alergia a nitroimidazol
+  294567003,Metronidazole allergy,alergia a metronidazol
+  294568008,Tinidazole allergy,alergia a tinidazol
+  294569000,Nimorazole allergy,alergia a nimorazol
+  294570004,Calcium sulfaloxate allergy,alergia a sulfaloxato de calcio
+  294571000,Phthalylsulphathiazole allergy,alergia a ftalilsulfatiazol
+  294572007,Sulfametopyrazine allergy,alergia a sulfametopirazina
+  294573002,Sulfadiazine allergy,alergia a sulfadiazina
+  294574008,Sulphadimethoxine allergy,alergia a sulfadimetoxina
+  294575009,Sulfadimidine allergy,alergia a sulfadimidina
+  294576005,Sulphafurazole allergy,alergia a sulfafurazol
+  294577001,Sulfaguanidine allergy,alergia a sulfaguanidina
+  294578006,Sulphaurea allergy,alergia a sulfacarbamida
+  294579003,Mafenide allergy,alergia a mafenida
+  294582008,Sulfacetamide allergy,alergia a sulfacetamida
+  294584009,Clomocycline sodium allergy,alergia a clomociclina
+  294585005,Doxycycline allergy,alergia a doxiciclina
+  294586006,Lymecycline allergy,alergia a limeciclina
+  294587002,Minocycline allergy,alergia a minociclina
+  294588007,Oxytetracycline allergy,alergia a oxitetraciclina
+  294590008,Chlortetracycline allergy,alergia a clortetraciclina
+  294591007,Demeclocycline allergy,alergia a demeclociclina
+  294592000,Tetracycline allergy,alergia a tetraciclina
+  294593005,Chloramphenicol allergy,alergia a cloranfenicol
+  294596002,Atovaquone allergy,alergia a atovacuona
+  294598001,Sodium stibogluconate allergy,alergia a estibogluconato de sodio
+  294600007,Pentamidine allergy,alergia a pentamidina
+  294602004,Diloxanide allergy,alergia a diloxanida
+  294604003,Clioquinol allergy,alergia a clioquinol
+  294607005,Pyrazinamide allergy,alergia a pirazinamida
+  294609008,Capreomycin allergy,alergia a capreomicina
+  294610003,Cycloserine allergy,alergia a cicloserina
+  294611004,Rifampicin allergy,alergia a rifampicina
+  294612006,Rifabutin allergy,alergia a rifabutina
+  294614007,Isoniazid allergy,alergia a isoniazida
+  294615008,Ethambutolol allergy,alergia a etambutol
+  294617000,Dapsone allergy,alergia a dapsona
+  294618005,Clofazimine allergy,alergia a clofazimina
+  294620008,Benzyl benzoate allergy,alergia a benzoato de bencilo
+  294621007,Monosulfiram allergy,alergia a monosulfiram
+  294623005,Carbaryl allergy,alergia a carbarilo
+  294625003,Lindane allergy,alergia a lindano
+  294627006,Malathion allergy,alergia a malatión
+  294629009,Phenothrin allergy,alergia a fenotrina
+  294630004,Permethrin allergy,alergia a permetrina
+  294633002,Human immunoglobulin allergy,alergia a inmunoglobulina humana
+  294638006,Tetanus immunoglobulin allergy,alergia a inmunoglobulina contra el tétanos
+  294639003,Varicella-zoster immunoglobulin allergy,alergia a inmunoglobulina contra virus varicela zóster
+  294641002,Anthrax vaccine allergy,alergia a vacuna anticarbunco
+  294642009,Allergy to diphtheria vaccine,alergia a vacuna antidiftérica
+  294644005,Diphtheria and tetanus vaccine allergy,alergia a vacuna antidiftérica y antitetánica
+  294645006,Allergy to diphtheria and pertussis and tetanus vaccine,"alergia a vacuna antidiftérica, antitetánica y antitosferínica"
+  294646007,Hepatitis B vaccine allergy,alergia a vacuna contra la hepatitis B
+  294647003,Influenza vaccine allergy,alergia a vacuna antigripal
+  294650000,Mumps vaccine allergy,alergia a vacuna antiparotidítica
+  294651001,Pertussis vaccine allergy,alergia a vacuna contra la tos ferina
+  294652008,Pneumococcal vaccine allergy,alergia a vacuna antineumocócica
+  294654009,Allergy to polio vaccine,alergia a vacuna antipoliomielítica
+  294655005,Rabies vaccine allergy,alergia a vacuna antirrábica
+  294656006,Rubella vaccine allergy,alergia a vacuna antirrubeólica
+  294657002,Smallpox vaccine allergy,alergia a vacuna antivariólica
+  294658007,Tetanus vaccine allergy,alergia a vacuna antitetánica
+  294659004,Typhoid vaccine allergy,alergia a vacuna antitifoidea
+  294662001,Allergy to measles and mumps and rubella vaccine,"alergia a vacuna antisarampionosa, antiparotidítica y antirrubeólica"
+  294663006,Hepatitis A vaccine allergy,alergia a vacuna contra la hepatitis A
+  294664000,Allergy to Haemophilus influenzae type b vaccine,alergia a componente de vacuna que contiene antígeno de Haemophilus influenzae tipo b
+  294667007,Clostridium botulinum toxin allergy,alergia a toxina de Clostridium botulinum
+  294668002,Botulism antitoxin allergy,alergia a antitoxina botulínica
+  294669005,Diphtheria antitoxin allergy,alergia a antitoxina diftérica
+  294671005,Glucagon allergy,alergia a glucagón
+  294674002,Carbimazole allergy,alergia a carbimazol
+  294676000,Propylthiouracil allergy,alergia a propiltiouracilo
+  294677009,Corticosteroids allergy,alergia a corticosteroide
+  294678004,Betamethasone allergy,alergia a betametasona
+  294679007,Hydrocortisone allergy,alergia a hidrocortisona
+  294682002,Prednisone allergy,alergia a prednisona
+  294683007,Fluorometholone allergy,alergia a fluorometolona
+  294684001,Flunisolide allergy,alergia a flunisolida
+  294685000,Desonide allergy,alergia a desonida
+  294686004,Desoxymethasone allergy,alergia a desoximetasona
+  294687008,Fluocinonide allergy,alergia a fluocinonida
+  294688003,Fluocortolone allergy,alergia a fluocortolona
+  294689006,Flurandrenolone allergy,alergia a flurandrenolona
+  294690002,Halcinonide allergy,alergia a halcinonida
+  294691003,Alclometasone allergy,alergia a alclometasona
+  294692005,Beclomethasone allergy,alergia a beclometasona
+  294693000,Clobetasol allergy,alergia a clobetasol
+  294694006,Clobetasone allergy,alergia a clobetasona
+  294695007,Cortisone allergy,alergia a cortisona
+  294696008,Diflucortolone allergy,alergia a diflucortolona
+  294697004,Fluclorolone allergy,alergia a fluclorolona
+  294698009,Fludrocortisone allergy,alergia a la fludrocortisona
+  294699001,Fluocinolone allergy,alergia a fluocinolona
+  294700000,Fluticasone allergy,alergia a fluticasona
+  294701001,Mometasone allergy,alergia a mometasona
+  294702008,Dexamethasone allergy,alergia a dexametasona
+  294706006,Methylprednisolone allergy,alergia a metilprednisolona
+  294707002,Prednisolone allergy,alergia a prednisolona
+  294711008,Triamcinolone allergy,alergia a triamcinolona
+  294712001,Budesonide allergy,alergia a budesonida
+  294714000,Insulin allergy,alergia a insulina
+  294717007,Insulin zinc suspension allergy,alergia a insulina cinc
+  294720004,Isophane insulin allergy,alergia a insulina isófana
+  294721000,Protamine zinc insulin allergy,alergia a insulina cinc protamina
+  294723002,Allergy to human insulin,alergia a insulina humana
+  294728006,Sulphonylurea allergy,alergia a sulfonilurea
+  294729003,Acetohexamide allergy,alergia a acetohexamida
+  294730008,Chlorpropamide allergy,alergia a clorpropamida
+  294731007,Glibenclamide allergy,alergia a glibenclamida
+  294732000,Glibornuride allergy,alergia a glibornurida
+  294733005,Gliclazide allergy,alergia a gliclazida
+  294734004,Glipizide allergy,alergia a glipizida
+  294735003,Gliquidone allergy,alergia a gliquidona
+  294736002,Glymidine allergy,alergia a glimidina
+  294737006,Tolazamide allergy,alergia a tolazamida
+  294738001,Tolbutamide allergy,alergia a tolbutamida
+  294739009,Biguanide allergy,alergia a biguanida
+  294740006,Metformin allergy,alergia a metformina
+  294741005,Guar gum allergy,alergia a goma guar
+  294742003,Acarbose allergy,alergia a acarbosa
+  294745001,Progestogen allergy,alergia a progestágeno
+  294746000,Allylestrenol allergy,alergia a alilestrenol
+  294747009,Dydrogesterone allergy,alergia a didrogesterona
+  294748004,Progesterone allergy,alergia a progesterona
+  294749007,Gestronol allergy,alergia a gestonorona
+  294750007,Hydroxyprogesterone allergy,alergia a hidroxiprogesterona
+  294751006,Megestrol allergy,alergia a megestrol
+  294752004,Norethisterone allergy,alergia a noretisterona
+  294754003,Levonorgestrel allergy,alergia a levonorgestrel
+  294755002,Medroxyprogesterone allergy,alergia a medroxiprogesterona
+  294757005,Anabolic steroids allergy,alergia a esteroide anabólico
+  294758000,Tibolone allergy,alergia a tibolona
+  294760003,Oxymetholone allergy,alergia a oximetolona
+  294761004,Nandrolone allergy,alergia a nandrolona
+  294762006,Stanozolol allergy,alergia a estanozolol
+  294763001,Cyclofenil allergy,alergia a ciclofenilo
+  294764007,Danazol allergy,alergia a danazol
+  294765008,Gestrinone allergy,alergia a gestrinona
+  294767000,Finasteride allergy,alergia a finasterida
+  294768005,Flutamide allergy,alergia a flutamida
+  294769002,Bicalutamide allergy,alergia a bicalutamida
+  294771002,Cyproterone allergy,alergia a ciproterona
+  294773004,Androgen allergy,alergia a andrógeno
+  294774005,Mesterolone allergy,alergia a mesterolona
+  294775006,Methyltestosterone allergy,alergia a metiltestosterona
+  294776007,Testosterone allergy,alergia a testosterona
+  294781003,Estrogen allergy,alergia a estrógeno
+  294782005,Oestradiol allergy,alergia a estradiol
+  294787004,Quinestradol allergy,alergia a quinestradol
+  294788009,Quinestrol allergy,alergia a quinestrol
+  294789001,Dienestrol allergy,alergia a dienestrol
+  294792002,Mestranol allergy,alergia a mestranol
+  294793007,Ethinylestradiol allergy,alergia a etinilestradiol
+  294794001,Oestriol allergy,alergia a estriol
+  294795000,Conjugated oestrogen allergy,alergia a estrógeno conjugado
+  294796004,Stilboestrol allergy,alergia a dietilestilbestrol
+  294798003,Clomiphene allergy,alergia a clomifeno
+  294799006,Ergoline drug allergy,alergia a ergolina
+  294800005,Cabergoline allergy,alergia a cabergolina
+  294801009,Quinagolide allergy,alergia a quinagolida
+  294803007,Liothyronine allergy,alergia a liotironina
+  294804001,Thyroxine allergy,alergia a tiroxina
+  294807008,Desmopressin allergy,alergia a desmopresina
+  294809006,Terlipressin allergy,alergia a terlipresina
+  294810001,Vasopressin allergy,alergia a la vasopresina
+  294811002,Corticotrophic hormone allergy,alergia a corticotrofina
+  294813004,Tetracosactrin allergy,alergia a tetracosactrina
+  294814005,Gonad regulating hormone allergy,alergia a hormona reguladora de las gónadas
+  294815006,Gonadorelin allergy,alergia a gonadorelina
+  294816007,Nafarelin allergy,alergia a nafarelina
+  294817003,Buserelin allergy,alergia a buserelina
+  294818008,Goserelin allergy,alergia a goserelina
+  294819000,Triptorelin allergy,alergia a triptorelina
+  294820006,Gonadotrophic hormone allergy,alergia a gonadotrofina
+  294821005,Leuprorelin allergy,alergia a leuprorelina
+  294823008,Oxytocin allergy,alergia a oxitocina
+  294825001,Somatrophic hormone allergy,alergia a somatotrofina
+  294826000,Octreotide allergy,alergia a octreotida
+  294828004,Thyrotrophic hormone allergy,alergia a hormona tirotrófica
+  294829007,Protirelin allergy,alergia a protirelina
+  294830002,Thyrotrophin allergy,alergia a tirotrofina
+  294833000,Biphosphonates allergy,alergia a bifosfonato
+  294838009,Calcium regulating hormone allergy,alergia a hormona reguladora del calcio
+  294839001,Calcitonin allergy,alergia a calcitonina
+  294840004,Salcatonin allergy,alergia a salcatonina
+  294841000,Calcitonin (pork) allergy,alergia a calcitonina porcina
+  294844008,Epoetin alfa allergy,alergia a epoetina alfa
+  294845009,Epoetin beta allergy,alergia a epoetina beta
+  294847001,Gelatin allergy,alergia a gelatina
+  294851004,Perfluorochemical allergy,alergia a agente perfluoroquímico
+  294854007,Albumin solution allergy,alergia a solución de albúmina
+  294855008,Antithrombin III allergy,alergia a antitrombina III
+  294865002,Factor VIII by-passing fraction products allergy,alergia a productos que saltean el factor VIII
+  294871008,Ancrod allergy,alergia a ancrod
+  294872001,Heparin allergy,alergia a heparina
+  294873006,Enoxaparin allergy,alergia a enoxaparina
+  294874000,Dalteparin allergy,alergia a dalteparina
+  294875004,Tinzaparin allergy,alergia a tinzaparina
+  294876003,Heparinoid allergy,alergia a heparinoide
+  294880008,Nicoumalone allergy,alergia a acenocumarol
+  294881007,Warfarin allergy,alergia a warfarina
+  294883005,Phenindione allergy,alergia a fenindiona
+  294885003,Ethamsylate allergy,alergia a etamsilato
+  294886002,Thromboplastin allergy,alergia a tromboplastina
+  294887006,Tranexamic acid allergy,alergia a ácido tranexámico
+  294888001,Collagen allergy,alergia a colágeno
+  294889009,Aprotinin allergy,alergia a aprotinina
+  294893003,Polysaccharide iron complex allergy,alergia a complejo de hierro polisacárido
+  294894009,Sodium ironedetate allergy,alergia a feredetato de sodio
+  294896006,Iron sorbitol allergy,alergia a hierro sorbitol
+  294897002,Ferrous salt allergy,alergia a sal ferrosa
+  294898007,Ferrous fumarate allergy,alergia a fumarato ferroso
+  294899004,Ferrous gluconate allergy,alergia a gluconato ferroso
+  294900009,Ferrous glycine sulfate allergy,alergia a sulfato de glicina ferroso
+  294901008,Ferrous succinate allergy,alergia a succinato ferroso
+  294902001,Ferrous sulfate allergy,alergia a sulfato ferroso
+  294903006,Ferrous phosphate allergy,alergia a fosfato ferroso
+  294912008,L-Carnitine allergy,alergia a l-carnitina
+  294913003,Iodine compounds allergy,alergia a compuesto de yodo
+  294915005,Iodophore allergy,alergia a yodóforo
+  294916006,Povidone iodine allergy,alergia a yodopovidona
+  294923007,Vitamin A allergy,alergia a vitamina A
+  294924001,Allergy to vitamin D and/or vitamin D derivative,alergia a vitamina D y/o derivado de vitamina D
+  294925000,Allergy to vitamin K and/or vitamin K derivative (finding),alergia a vitamina K y/o derivado de vitamina K
+  294926004,Alpha-tocopheryl allergy,alergia a alfa-tocoferol
+  294929006,Nicotinic acid allergy,alergia a ácido nicotínico
+  294930001,Folic acid allergy,alergia a ácido fólico
+  294931002,Folinic acid allergy,alergia a ácido folínico
+  294933004,Hydroxocobalamin allergy,alergia a hidroxocobalamina
+  294934005,Cyanocobalamin allergy,alergia a cianocobalamina
+  294937003,Inositol allergy,alergia a inositol
+  294940003,Ascorbic acid allergy,alergia a ácido ascórbico
+  294945008,Sodium polystyrene sulfonate allergy,alergia a sulfonato sódico de poliestireno
+  294951003,Fluoride allergy,alergia a fluoruro
+  294956008,Gemfibrozil allergy,alergia a gemfibrozilo
+  294957004,Probucol allergy,alergia a probucol
+  294958009,Acipimox allergy,alergia a acipimox
+  294961005,Colestipol allergy,alergia a colestipol
+  294962003,Cholestyramine allergy,alergia a colestiramina
+  294964002,Bezafibrate allergy,alergia a bezafibrato
+  294965001,Clofibrate allergy,alergia a clofibrato
+  294966000,Fenofibrate allergy,alergia a fenofibrato
+  294967009,Ciprofibrate allergy,alergia a ciprofibrato
+  294968004,Fish oils allergy,alergia a aceite de pescado
+  294969007,Omega 3-marine triglycerides allergy,alergia a ácido graso omega 3 derivado de pescado
+  294970008,HMG COA reductase inhibitor allergy,alergia a inhibidor de 3-hidroxi-3-metilglutaril coenzima A (HMG CoA) reductasa
+  294971007,Simvastatin allergy,alergia a simvastatina
+  294972000,Fluvastatin allergy,alergia a fluvastatina
+  294973005,Pravastatin allergy,alergia a pravastatina
+  294975003,Adenosine allergy,alergia a adenosina
+  294977006,Disopyramide allergy,alergia a disopiramida
+  294978001,Quinidine allergy,alergia a quinidina
+  294979009,Flecainide allergy,alergia a flecainida
+  294980007,Mexiletine allergy,alergia a mexiletina
+  294981006,Moracizine allergy,alergia a moracizina
+  294982004,Procainamide allergy,alergia a procainamida
+  294983009,Propafenone allergy,alergia a propafenona
+  294984003,Tocainide allergy,alergia a tocainida
