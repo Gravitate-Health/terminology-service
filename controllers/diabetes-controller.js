@@ -1,5 +1,5 @@
 const csv = require('csvtojson');
-const csvFilePath = './controllers/db/allergies.csv';
+const csvFilePath = './controllers/db/diabetes.csv';
 
 function getAll(req,res) {
 
