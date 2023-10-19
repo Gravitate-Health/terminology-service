@@ -1,0 +1,342 @@
+ID,es,en
+199733009,hallazgo hematológico anormal,Anormal hematological finding
+11082009,embarazo,Pregnancy
+416413003,embarazo,Pregnancy
+427013000,alcohol,Alcohol
+243826008,cuidado prenatal,Prenatal care
+"1,07501110001191E+016",Tumoración,Tumor
+127376007,Cervical,Cervical
+249020006,Cuello uterino,Cervix
+289783000,Cuello uterino,Uterine neck (Cervix)
+106111002,embarazo,Pregnancy
+724483001,imagen,Image
+445548006,muerto,Dead
+118215003,parto,Childbirth
+173300003,trastorno,Disorder
+27574007,fertilización,Fertilization
+289827009,cervical,Cervical
+289761004,Cervical,Cervical
+289675001,uterino,Uterine
+289205009,mediciones,Measurements
+289573002,tapon mucoso,Mucus plug
+289203002,embarazo,Pregnancy
+301801008,embarazo,Pregnancy
+289766009,uterino,Uterine
+289208006,embarazo,Pregnancy
+118180006,liquido amniotico,Amniotic fluid
+199087006,aborto,Abortion
+199088001,aborto,Abortion
+237036002,aborto,Abortion
+"1,07559510001191E+016",Soplo,Murmur
+10231000132102,fertilización,Fertilization
+9121000119106,Dolor,Pain
+100801000119107,tabaco,Tobacco
+289606001,liquido amniotico,Amniotic fluid
+289608000,amniótico,Amniotic
+289607005,amniótico,Amniotic
+249207000,orificio,Orifice
+33340004,Multiple,Multiple
+289572007,liquido amniotico,Amniotic fluid
+60001007,Not,No
+"1,07605810001191E+016",Dolor,Pain
+278058008,Cervical,Cervical
+"1,07562610001191E+016",Maltrato,Abuse
+"1,07563010001191E+016",Maltrato,Abuse
+249206009,cervical,Cervical
+249205008,placenta,Placenta
+102874004,Possible,Possible
+275306006,Postnatal,Postnatal
+152231000119106,Embarazo,Pregnancy
+77386006,embarazo,Pregnancy
+118189007,Prenatal,Prenatal
+127362006,Previous,Previous
+248937008,concepción,Conception
+248896000,vagina,Vagina
+"1,07609810001191E+016",Maltrato,Abuse
+289765008,Cuello uterino,Uterine neck (Cervix)
+"1,07610210001191E+016",Abuso,Abuse
+"1,07610610001191E+016",Abuso,Abuse
+284075002,sangrado,Bleeding
+91271004,superfetación,Superfetation
+72417002,contracción,Contraction
+278056007,no erosionado,Not eroded
+9279009,Extra,Extra
+45307008,Extrachorial,Extrachorial
+47200007,alto riesgo,High risk
+439311009,embarazo,Pregnancy
+65727000,Intrauterine,Intrauterine
+102876002,Cuello uterino,Uterine neck (Cervix)
+72892002,Normal,Normal
+127363001,embarazo,Pregnancy
+14418008,precoz,Early
+169561007,embarazo,Pregnancy
+169564004,abdominal,Abdominal
+169563005,embarazo,Pregnancy
+169560008,embarazo,Pregnancy
+169562000,embarazo,Pregnancy
+83074005,embarazo,Pregnancy
+58532003,embarazo,Pregnancy
+294612006, rifabutina,Rifabutin
+294614007, isoniazida,Isoniazid
+294615008, etambutol,Ethambutol
+294617000, dapsona,Dapsone
+294618005, clofazimina,Clofazimine
+294620008, benzoato de bencilo,Benzyl benzoate
+294621007, monosulfiram,Monosulfiram
+294623005, carbarilo,Carbaryl
+294625003, lindano,Lindane
+294627006, malatión,Malathion
+294629009, fenotrina,Phenothrin
+294630004, permetrina,Permethrin
+294633002, inmunoglobulina humana,Human immunoglobulin
+294638006, inmunoglobulina contra el tétanos,Tetanus immunoglobulin
+294639003, inmunoglobulina contra virus varicela zóster,Varicella-zoster virus immunoglobulin
+294641002, vacuna anticarbunco,Anthrax vaccine
+294642009, vacuna antidiftérica,Diphtheria vaccine
+294644005, vacuna antidiftérica y antitetánica,Diphtheria and tetanus vaccine
+294645006," vacuna antidiftérica, antitetánica y antitosferínica","Diphtheria, tetanus, and pertussis vaccine"
+294646007, vacuna contra la hepatitis B,Hepatitis B vaccine
+294647003, vacuna antigripal,Influenza vaccine
+294650000, vacuna antiparotidítica,Mumps vaccine
+294651001, vacuna contra la tos ferina,Pertussis vaccine
+294652008, vacuna antineumocócica,Pneumococcal vaccine
+294654009, vacuna antipoliomielítica,Polio vaccine
+294655005, vacuna antirrábica,Rabies vaccine
+294656006, vacuna antirrubeólica,Rubella vaccine
+294657002, vacuna antivariólica,Smallpox vaccine
+294658007, vacuna antitetánica,Tetanus vaccine
+294659004, vacuna antitifoidea,Typhoid vaccine
+294662001," vacuna antisarampionosa, antiparotidítica y antirrubeólica","Measles, mumps, and rubella vaccine"
+294663006, vacuna contra la hepatitis A,Hepatitis A vaccine
+294664000, componente de vacuna que contiene antígeno de Haemophilus influenzae tipo b,Component of vaccine containing Haemophilus influenzae type b antigen
+294667007, toxina de Clostridium botulinum,Clostridium botulinum toxin
+294668002, antitoxina botulínica,Botulinum antitoxin
+294669005, antitoxina diftérica,Diphtheria antitoxin
+294671005, glucagón,Glucagon
+294674002, carbimazol,Carbimazole
+294676000, propiltiouracilo,Propylthiouracil
+294677009, corticosteroide,Corticosteroid
+294678004, betametasona,Betamethasone
+294679007, hidrocortisona,Hydrocortisone
+294682002, prednisona,Prednisone
+294683007, fluorometolona,Fluorometholone
+294684001, flunisolida,Flunisolide
+294685000, desonida,Desonide
+294686004, desoximetasona,Desoximetasone
+294687008, fluocinonida,Fluocinonide
+294688003, fluocortolona,Fluocortolone
+294689006, flurandrenolona,Flurandrenolide
+294690002, halcinonida,Halcinonide
+294691003, alclometasona,Alclometasone
+294692005, beclometasona,Beclomethasone
+294693000, clobetasol,Clobetasol
+294694006, clobetasona,Clobetasone
+294695007, cortisona,Cortisone
+294696008, diflucortolona,Diflucortolone
+294697004, fluclorolona,Fluclorolone
+294698009, la fludrocortisona,Fludrocortisone
+294699001, fluocinolona,Fluocinolone
+294700000, fluticasona,Fluticasone
+294701001, mometasona,Mometasone
+294702008, dexametasona,Dexamethasone
+294706006, metilprednisolona,Methylprednisolone
+294707002, prednisolona,Prednisolone
+294711008, triamcinolona,Triamcinolone
+294712001, budesonida,Budesonide
+294714000, insulina,Insulin
+294717007, insulina cinc,Insulin zinc
+294720004, insulina isófana,Insulin isophane
+294721000, insulina cinc protamina,Insulin zinc protamine
+294723002, insulina humana,Human insulin
+294728006, sulfonilurea,Sulfonylurea
+294729003, acetohexamida,Acetohexamide
+294730008, clorpropamida,Chlorpropamide
+294731007, glibenclamida,Glibenclamide
+294732000, glibornurida,Glibornuride
+294733005, gliclazida,Gliclazide
+294734004, glipizida,Glipizide
+294735003, gliquidona,Gliquidone
+294736002, glimidina,Glimidina
+294737006, tolazamida,Tolazamide
+294738001, tolbutamida,Tolbutamide
+294739009, biguanida,Biguanide
+294740006, metformina,Metformin
+294741005, goma guar,Guar gum
+294742003, acarbosa,Acarbose
+294745001, progestágeno,Progestin
+294746000, alilestrenol,Algestone
+294747009, didrogesterona,Dydrogesterone
+294748004, progesterona,Progesterone
+294749007, gestonorona,Gestonorone
+294750007, hidroxiprogesterona,Hydroxyprogesterone
+294751006, megestrol,Megestrol
+294752004, noretisterona,Norethisterone
+294754003, levonorgestrel,Levonorgestrel
+294755002, medroxiprogesterona,Medroxyprogesterone
+294757005, esteroide anabólico,Anabolic steroid
+294758000, tibolona,Tibolone
+294760003, oximetolona,Oxymetholone
+294761004, nandrolona,Nandrolone
+294762006, estanozolol,Stanozolol
+294763001, ciclofenilo,Clomiphene
+294764007, danazol,Danazol
+294765008, gestrinona,Gestrinone
+294767000, finasterida,Finasteride
+294768005, flutamida,Flutamide
+294769002, bicalutamida,Bicalutamide
+294771002, ciproterona,Cyproterone
+294773004, andrógeno,Androgen
+294774005, mesterolona,Mesterolone
+294775006, metiltestosterona,Methyltestosterone
+294776007, testosterona,Testosterone
+294781003, estrógeno,Estrogen
+294782005, estradiol,Estradiol
+294787004, quinestradol,Quinestradiol
+294788009, quinestrol,Quinestrol
+294789001, dienestrol,Dienestrol
+294792002, mestranol,Mestranol
+294793007, etinilestradiol,Ethinylestradiol
+294794001, estriol,Estriol
+294795000, estrógeno conjugado,Conjugated estrogen
+294796004, dietilestilbestrol,Diethylstilbestrol
+294798003, clomifeno,Clomiphene
+294799006, ergolina,Ergoline
+294800005, cabergolina,Cabergoline
+294801009, quinagolida,Quinagolide
+294803007, liotironina,Liothyronine
+294804001, tiroxina,Thyroxine
+294807008, desmopresina,Desmopressin
+294809006, terlipresina,Terlipressin
+294810001, la vasopresina,Vasopressin
+294811002, corticotrofina,Corticotropin
+294813004, tetracosactrina,Tetracosactide
+294814005, hormona reguladora de las gónadas,Gonadotropin-releasing hormone
+294815006, gonadorelina,Gonadorelin
+294816007, nafarelina,Nafarelin
+294817003, buserelina,Buserelin
+294818008, goserelina,Goserelin
+294819000, triptorelina,Triptorelin
+294820006, gonadotrofina,Gonadotropin
+294821005, leuprorelina,Leuprorelin
+294823008, oxitocina,Oxytocin
+294825001, somatotrofina,Somatotropin
+294826000, octreotida,Octreotide
+294828004, hormona tirotrófica,Thyrotropin
+294829007, protirelina,Protirelin
+294830002, tirotrofina,Thyrotropin
+294833000, bifosfonato,Bisphosphonate
+294838009, hormona reguladora del calcio,Calcium-regulating hormone
+294839001, calcitonina,Calcitonin
+294840004, salcatonina,Salmon calcitonin
+294841000, calcitonina porcina,Porcine calcitonin
+294844008, epoetina alfa,Epoetin alfa
+294845009, epoetina beta,Epoetin beta
+294847001, gelatina,Gelatin
+294851004, agente perfluoroquímico,Perfluorochemical agent
+294854007, solución de albúmina,Albumin solution
+294855008, antitrombina III,Antithrombin III
+294865002, productos que saltean el factor VIII,Factor VIII bypassing agents
+294871008, ancrod,Ancrod
+294872001, heparina,Heparin
+294873006, enoxaparina,Enoxaparin
+294874000, dalteparina,Dalteparin
+294875004, tinzaparina,Tinzaparin
+294876003, heparinoide,Heparinoid
+294880008, acenocumarol,Acenocoumarol
+294881007, warfarina,Warfarin
+294883005, fenindiona,Phenindione
+294885003, etamsilato,Ethamsylate
+294886002, tromboplastina,Thromboplastin
+294887006, ácido tranexámico,Tranexamic acid
+294888001, colágeno,Collagen
+294889009, aprotinina,Aprotinin
+294893003, complejo de hierro polisacárido,Polysaccharide iron complex
+294894009, feredetato de sodio,Sodium ferric edetate
+294896006, hierro sorbitol,Iron sorbitol
+294897002, sal ferrosa,Ferrous salt
+294898007, fumarato ferroso,Ferrous fumarate
+294899004, gluconato ferroso,Ferrous gluconate
+294900009, sulfato de glicina ferroso,Ferrous glycine sulfate
+294901008, succinato ferroso,Ferrous succinate
+294902001, sulfato ferroso,Ferrous sulfate
+294903006, fosfato ferroso,Ferrous phosphate
+294912008, l-carnitina,L-carnitine
+294913003, compuesto de yodo,Iodine compound
+294915005, yodóforo,Iodophor
+294916006, yodopovidona,Povidone-iodine
+294923007, vitamina A,Vitamin A
+294924001, vitamina D y/o derivado de vitamina D,Vitamin D and/or vitamin D derivative
+294925000, vitamina K y/o derivado de vitamina K,Vitamin K and/or vitamin K derivative
+294926004, alfa-tocoferol,Alpha-tocopherol
+294929006, ácido nicotínico,Nicotinic acid
+294930001, ácido fólico,Folic acid
+294931002, ácido folínico,Folinic acid
+294933004, hidroxocobalamina,Hydroxocobalamin
+294934005, cianocobalamina,Cyanocobalamin
+294937003, inositol,Inositol
+294940003, ácido ascórbico,Ascorbic acid
+294945008, sulfonato sódico de poliestireno,Sodium polystyrene sulfonate
+294951003, fluoruro,Fluoride
+294956008, gemfibrozilo,Gemfibrozil
+294957004, probucol,Probucol
+294958009, acipimox,Acipimox
+294961005, colestipol,Colestipol
+294962003, colestiramina,Colestiraminc
+294964002, bezafibrato,Bezafibrate
+294965001, clofibrato,Clofibrate
+294966000, fenofibrato,Fenofibrate
+294967009, ciprofibrato,Ciprofibrate
+294968004, aceite de pescado,Fish oil
+294969007, ácido graso omega 3 derivado de pescado,Omega-3 fatty acid derived from fish
+294970008, inhibidor de 3-hidroxi-3-metilglutaril coenzima A (HMG CoA) reductasa,3-hydroxy-3-methylglutaryl coenzyme A (HMG CoA) reductase inhibitor
+294971007, simvastatina,Simvastatin
+294972000, fluvastatina,Fluvastatin
+294973005, pravastatina,Pravastatin
+294975003, adenosina,Adenosine
+294977006, disopiramida,Disopyramide
+294978001, quinidina,Quinidine
+294979009, flecainida,Flecainide
+294980007, mexiletina,Mexiletine
+294981006, moracizina,Moricizine
+294982004, procainamida,Procainamide
+294983009, propafenona,Propafenone
+294984003, tocainida,Tocainide
+"3,0558861000132E+016",diabetes,Diabetes
+609568004,diabetes,Diabetes
+609569007,diabetes,Diabetes
+105401000119101,diabetes,Diabetes
+199223000,diabetes,Diabetes
+703136005,diabetes,Diabetes
+46635009,diabetes,Diabetes
+44054006,diabetes,Diabetes
+111552007,diabetes,Diabetes
+716362006,diabetes,Diabetes
+123763000,Houssay,Houssay
+722206009,sindrome diabetes,Diabetes syndrome
+8801005,diabetes,Diabetes
+733072002,stimmler,Stimmler
+292045009,Opioide,Opioid
+802711000000101,Glucosa,Glucose
+782338006,Monosodio,Monosodium
+609551003,hipersensibilidad,Hypersensivity
+609537003,hipersensibilidad,Hypersensibility
+293354007,Hierro,Iron
+293432006,3-Hydroxy-3-methylglutaryl coenzyme,3-Hydroxy-3-methylglutaryl coenzyme
+95903000,Ausencia de reacción a drogas,Absence of drug reaction
+32581000124105,Ingrediente activo,Active ingredient
+448177004,farmaco,Drug
+95906008,Alcohol,Alcohol
+404204005,Medicamento reaccion,Medication reaction
+432381000124102,Tabaco,Tobacco
+95904006,Medicamento,Medication
+95907004,Alimentos,Food
+448090008,Alimentos,Food
+432391000124104,Tabaco,Tobacco
+448178009,farmaco,Drug
+448091007,Alcohol,Alcohol
+713972008,Falso positivo,False positive
+165815009,HIV negativo,HIV negative
+165816005,HIV positivo,HIV positive
+719727000,Tipo 1,Type 1
+719767004,Tipo 2,Type 2
+365587003,Hallazgo,Discovery

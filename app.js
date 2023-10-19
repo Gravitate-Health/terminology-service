@@ -7,6 +7,7 @@ const intolleranceRoutes = require('./routes/intollerance');
 const pregnancyRoutes = require('./routes/pregnancy');
 const diabetesRoutes = require('./routes/diabetes');
 const medicationInteractionRoutes = require('./routes/medication-interaction');
+const simplificationRoutes = require('./routes/simplification');
 
 
 
@@ -28,6 +29,7 @@ app.use('/snomed/intollerances',intolleranceRoutes);
 app.use('/snomed/pregnancy',pregnancyRoutes);
 app.use('/snomed/diabetes',diabetesRoutes);
 app.use('/snomed/medication-interaction',medicationInteractionRoutes);
+app.use('/snomed/simplification',simplificationRoutes);
 
 app.get('/', (req, res) => {
   res.send({msg : "Test endpoint for the icpc2 terminology service"});
