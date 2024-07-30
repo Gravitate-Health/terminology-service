@@ -1,2 +1,14 @@
 source_system,source_code,target_system,target_code,target_description_en,target_description_es,target_description_xx
 snomed,12344,snomed,56788,"Another pregnancy code","xxxx","xxx"
+snomed,69840006,snomed,,,	"",""
+snomed,	77386006,snomed,16356006, Multiple pregnancy (finding)
+snomed,	77386006,snomed,72892002,  Normal pregnancy (finding)
+snomed,	77386006,snomed,14418008, Precocious pregnancy (finding)
+snomed,	77386006,snomed,568141000005106, Pregnancy following cone biopsy of uterine cervix (finding)
+
+
+
+
+
+
+
