@@ -4,6 +4,9 @@ snomed,	77386006,snomed,16356006, Multiple pregnancy (finding),"xxxx","xxx"
 snomed,	77386006,snomed,72892002,  Normal pregnancy (finding),"xxxx","xxx"
 snomed,	77386006,snomed,14418008, Precocious pregnancy (finding),"xxxx","xxx"
 snomed,	77386006,snomed,568141000005106, Pregnancy following cone biopsy of uterine cervix (finding),"xxxx","xxx"
+snomed,	69840006,gravitate,xx, breast-feeding,"xxxx","xxx"
+snomed,	69840006,gravitate,yy, lactation,"xxxx","xxx"
+
 
 
 
