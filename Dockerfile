@@ -6,7 +6,7 @@ COPY package*.json ./
 
 RUN npm install
 
-ENV PORT 3000
+ENV PORT=3000
 
 
 RUN npm ci --only=production
