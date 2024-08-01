@@ -24,8 +24,8 @@ function getAll(req,res) {
           result.push({
             codesystem: synonym.target_system,
             code: synonym.target_code,
-            desc_en: synonym.target_description_en,
-            desc_es: synonym.target_description_es
+            descr_en: synonym.target_description_en,
+            descr_es: synonym.target_description_es
           });
         });
       }
