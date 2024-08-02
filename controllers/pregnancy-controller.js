@@ -1,16 +1,22 @@
 const csv = require('csvtojson');
-const csvFilePath = './controllers/db/pregnancy.csv';
-const csvSynonymsFilePath = './controllers/db/synonyms.csv';
 
-function getAll(req,res) {
+async function getAll(req,res) {
   let pregnancyList;
 
-  csv().fromFile(csvFilePath).then((list)=>{
+  let csvPregFile = await fetch("https://raw.githubusercontent.com/Gravitate-Health/terminology-service/main/controllers/db/pregnancy.csv")
+    .then(response => response.text())
+    .then(text => text);
+
+  let csvSynonymsFile = await fetch("https://raw.githubusercontent.com/Gravitate-Health/terminology-service/main/controllers/db/synonyms.csv")
+    .then(response => response.text())
+    .then(text => text);
+
+  csv().fromString(csvPregFile).then((list)=>{
     console.log(list)
     pregnancyList = list;
   });
 
-  csv().fromFile(csvSynonymsFilePath).then((list)=>{
+  csv().fromString(csvSynonymsFile).then((list)=>{
     console.log(list)
     let result = [];
     result = pregnancyList;
