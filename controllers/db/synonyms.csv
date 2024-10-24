@@ -1,8 +1,8 @@
-source_system,source_code,target_system,target_code,target_description_en,target_description_es,target_description_xx
-snomed,12344,snomed,56788,"Another pregnancy code", Otro código de embarazo,"xxx"
-snomed,	77386006,snomed,16356006, Multiple pregnancy, Múltiple embarazo,"xxx"
-snomed,	77386006,snomed,72892002, Normal pregnancy, Embarazo normal,"xxx"
-snomed,	77386006,snomed,14418008, Precocious pregnancy, Embarazo precoz,"xxx"
-snomed,	77386006,snomed,568141000005106, Pregnancy following cone biopsy of uterine cervix, Embarazo tras biopsia con cono de cuello uterino,"xxx"
-snomed,	69840006,gravitate, grav-3, breast-feeding, lactancia materna,"xxx"
-snomed,	69840006,gravitate, grav-2, lactation, Lactancia,"xxx"
+source_system,source_code,target_system,target_code,target_description_en,target_description_es,target_description_da
+snomed,12344,snomed,56788,Another pregnancy code, Otro código de embarazo,Anden graviditetskode
+snomed,	77386006,snomed,16356006, Multiple pregnancy, Múltiple embarazo,Flerfoldsgraviditet
+snomed,	77386006,snomed,72892002, Normal pregnancy, Embarazo normal,Normal graviditet
+snomed,	77386006,snomed,14418008, Precocious pregnancy, Embarazo precoz,For tidlig graviditet
+snomed,	77386006,snomed,568141000005106, Pregnancy following cone biopsy of uterine cervix, Embarazo tras biopsia con cono de cuello uterino,Graviditet efter konisering af cervix uteri
+snomed,	69840006,gravitate, grav-3, breast-feeding, lactancia materna,amning
+snomed,	69840006,gravitate, grav-2, lactation, Lactancia,Amning

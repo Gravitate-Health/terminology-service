@@ -1,4 +1,4 @@
-codesystem,code,descr_en,descr_es
-snomed,69840006,Normal breast feeding,Lactancia materna normal
-snomed,77386006,Pregnancy,Embarazo
-icpc-2,W78,Pregnancy,Embarazo
+codesystem,code,descr_en,descr_es,descr_da
+snomed,69840006,Normal breast feeding,Lactancia materna normal,Normal amning
+snomed,77386006,Pregnancy,Embarazo,Graviditet
+icpc-2,W78,Pregnancy,Embarazo,Graviditet
