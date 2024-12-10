@@ -1,6 +1,6 @@
 const express = require('express');
 
-const pregnancyRoutes = require('./routes/pregnancy');
+const codesRoutes = require('./routes/codes');
 
 
 
@@ -15,7 +15,7 @@ app.use(express.urlencoded({
 
 
 
-app.use('/snomed/pregnancy',pregnancyRoutes);
+app.use('/codes',codesRoutes);
 
 
 app.get('/', (req, res) => {

@@ -3,7 +3,7 @@ const csv = require('csvtojson');
 async function getAll(req,res) {
   let pregnancyList;
 
-  let csvPregFile = await fetch("https://raw.githubusercontent.com/Gravitate-Health/terminology-service/main/controllers/db/pregnancy.csv")
+  let csvPregFile = await fetch("https://raw.githubusercontent.com/Gravitate-Health/terminology-service/main/controllers/db/codes.csv")
     .then(response => response.text())
     .then(text => text);
 
