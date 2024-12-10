@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: terminology-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: terminology-service
+  template:
+    metadata:
+      labels:
+        app: terminology-service
+    spec:
+      containers:
+      - name: terminology-service
+        image: gravitate-registry.cr.de-fra.ionos.com/terminology-service:v0.3.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000

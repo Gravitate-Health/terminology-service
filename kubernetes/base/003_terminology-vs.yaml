@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: terminology-svc
+  name: terminology-service
 spec:
   hosts:
   - "*"
@@ -12,9 +12,9 @@ spec:
     - uri:
         prefix: /terminologies/
     rewrite:
-        uri: "/"
+      uri: "/"
     route:
     - destination:
-        host: terminology-svc.default.svc.cluster.local
+        host: terminology-service.default.svc.cluster.local
         port:
           number: 3000

@@ -6,15 +6,15 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: terminology-svc
+      app: terminology-service
   template:
     metadata:
       labels:
-        app: terminology-svc
+        app: terminology-service
     spec:
       containers:
-      - name: terminology-svc
-        image: gravitate-registry.cr.de-fra.ionos.com/terminology:latest
+      - name: terminology-service
+        image: gravitate-registry.cr.de-fra.ionos.com/terminology-service:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
