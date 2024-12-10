@@ -1,12 +1,6 @@
 const express = require('express');
 
-const problemListRoutes = require('./routes/problem-list');
-const vihRoutes = require('./routes/vih');
-const allergiesListRoutes = require('./routes/allergies');
-const intolleranceRoutes = require('./routes/intollerance');
 const pregnancyRoutes = require('./routes/pregnancy');
-const diabetesRoutes = require('./routes/diabetes');
-const medicationInteractionRoutes = require('./routes/medication-interaction');
 
 
 
