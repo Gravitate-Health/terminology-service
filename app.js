@@ -19,18 +19,13 @@ app.use(express.urlencoded({
   extended: true
 }));
 
-app.use('/icpc2/problem-list', problemListRoutes);
 
-app.use('/snomed/vih', vihRoutes);
-app.use('/snomed/allergies', allergiesListRoutes);
-app.use('/snomed/vih', allergiesListRoutes);
-app.use('/snomed/intollerances',intolleranceRoutes);
+
 app.use('/snomed/pregnancy',pregnancyRoutes);
-app.use('/snomed/diabetes',diabetesRoutes);
-app.use('/snomed/medication-interaction',medicationInteractionRoutes);
+
 
 app.get('/', (req, res) => {
-  res.send({msg : "Test endpoint for the icpc2 terminology service"});
+  res.send({msg : "Test endpoint for the terminology service"});
 });
 
 
