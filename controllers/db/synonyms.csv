@@ -6,3 +6,15 @@ snomed,	77386006,snomed,14418008, Precocious pregnancy, Embarazo precoz,For tidl
 snomed,	77386006,snomed,568141000005106, Pregnancy following cone biopsy of uterine cervix, Embarazo tras biopsia con cono de cuello uterino,Graviditet efter konisering af cervix uteri
 snomed,	69840006,gravitate, grav-3, breast-feeding, lactancia materna,amning
 snomed,	69840006,gravitate, grav-2, lactation, Lactancia,Amning
+snomed,77386006,gravitate, grav-4,during pregnancy,,
+snomed,77386006,gravitate, grav-4,if you are pregnant,,
+snomed,77386006,gravitate, grav-4,when pregnant,,
+snomed,77386006,gravitate, grav-4,while pregnant,,
+snomed,77386006,gravitate, grav-4,planning to became pregnant,,
+snomed,77386006,gravitate, grav-4,safe for use during pregnancy,,
+snomed,77386006,gravitate, grav-4,no known risk during pregnancy,,
+snomed,77386006,gravitate, grav-4,gestation,,
+snomed,77386006,gravitate, grav-4,prenatal,,
+snomed,77386006,gravitate, grav-4,antenatal,,
+snomed,69840006,gravitate, grav-5,Normal breast feeding,,
+snomed,69840006,gravitate, grav-5,Effective breastfeeding,,
