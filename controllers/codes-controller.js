@@ -11,11 +11,9 @@ async function getAll(req,res) {
 
   let csvSynonymsFile = await synonymResponse.text();
 
-  codesList = papa.parse(csvCodesFile, {header: true}).data;
-
-  // 
+  codesList = papa.parse(csvCodesFile, {header: true, skipEmptyLines: true}).data;
   
-  let synonymsList = papa.parse(csvSynonymsFile, {header: true}).data;
+  let synonymsList = papa.parse(csvSynonymsFile, {header: true, skipEmptyLines: true}).data;
 
   let result = codesList.map((term) => {
     let synonyms = synonymsList.filter((synonym) => synonym.source_system === term.codesystem && synonym.source_code === term.code);
@@ -29,7 +27,8 @@ async function getAll(req,res) {
       synonyms
     }
   });
-    res.status(200).json(result);
+
+  res.status(200).send(result);
 }
 module.exports = {
   getAll

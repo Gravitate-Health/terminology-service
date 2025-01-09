@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: terminology-service
-        image: gravitate-registry.cr.de-fra.ionos.com/terminology-service:v0.6.0
+        image: gravitate-registry.cr.de-fra.ionos.com/terminology-service:v0.10.0
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
