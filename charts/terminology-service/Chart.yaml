@@ -1,0 +1,14 @@
+apiVersion: v2
+name: terminology-service
+description: A Helm chart for deploying the Gravitate Health Terminology Service
+type: application
+version: 0.1.0
+appVersion: "1.0"
+keywords:
+  - terminology
+  - gravitate-health
+  - healthcare
+maintainers:
+  - name: Gravitate Health Team
+sources:
+  - https://github.com/Gravitate-Health/terminology-service

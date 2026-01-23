@@ -1,0 +1,59 @@
+Thank you for installing {{ .Chart.Name }}!
+
+Your release is named {{ .Release.Name }}.
+
+To learn more about the release, try:
+
+  $ helm status {{ .Release.Name }} -n {{ .Release.Namespace }}
+  $ helm get all {{ .Release.Name }} -n {{ .Release.Namespace }}
+
+Service Information:
+====================
+{{- if eq .Values.networking.type "istio" }}
+✓ Networking Type: Istio Service Mesh
+  - VirtualService: {{ include "terminology-service.fullname" . }}
+  - Gateway: {{ .Values.networking.istio.virtualService.gateways }}
+  - Hosts: {{ .Values.networking.istio.virtualService.hosts }}
+  
+  The service is exposed through Istio VirtualService with path prefix: /terminologies/
+  
+  Access the service through your Istio ingress gateway:
+  $ kubectl get svc istio-ingressgateway -n istio-system
+
+{{- else if eq .Values.networking.type "ingress" }}
+✓ Networking Type: Kubernetes Ingress
+  {{- range .Values.networking.ingress.hosts }}
+  - http://{{ .host }}
+  {{- end }}
+  
+  Get the ingress details:
+  $ kubectl get ingress {{ include "terminology-service.fullname" . }} -n {{ .Release.Namespace }}
+
+{{- else }}
+✓ Networking Type: None (Service only)
+  
+  The service is only accessible within the cluster:
+  $ kubectl get svc {{ include "terminology-service.fullname" . }} -n {{ .Release.Namespace }}
+  
+  To access it locally:
+  $ kubectl port-forward svc/{{ include "terminology-service.fullname" . }} {{ .Values.service.port }}:{{ .Values.service.port }} -n {{ .Release.Namespace }}
+{{- end }}
+
+Pods:
+=====
+  $ kubectl get pods -n {{ .Release.Namespace }} -l app.kubernetes.io/name={{ include "terminology-service.name" . }}
+
+Logs:
+=====
+  $ kubectl logs -n {{ .Release.Namespace }} -l app.kubernetes.io/name={{ include "terminology-service.name" . }} -f
+
+{{ if .Values.autoscaling.enabled }}
+Autoscaling:
+============
+  HorizontalPodAutoscaler is enabled
+  Min replicas: {{ .Values.autoscaling.minReplicas }}
+  Max replicas: {{ .Values.autoscaling.maxReplicas }}
+  
+  Check HPA status:
+  $ kubectl get hpa {{ include "terminology-service.fullname" . }} -n {{ .Release.Namespace }}
+{{- end }}

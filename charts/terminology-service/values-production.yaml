@@ -1,0 +1,127 @@
+# Production values for terminology-service
+# This file contains production-ready configuration
+
+# Increase replicas for high availability
+replicaCount: 3
+
+image:
+  repository: gravitate-registry.cr.de-fra.ionos.com/terminology-service
+  pullPolicy: IfNotPresent
+  tag: "v0.10.0"  # Pin to specific version in production
+
+# Enable service account
+serviceAccount:
+  create: true
+  annotations: {}
+  name: ""
+
+# Add pod annotations for monitoring/logging
+podAnnotations:
+  prometheus.io/scrape: "true"
+  prometheus.io/port: "3000"
+  prometheus.io/path: "/metrics"
+
+# Security contexts for production
+podSecurityContext:
+  runAsNonRoot: true
+  runAsUser: 1000
+  fsGroup: 1000
+  seccompProfile:
+    type: RuntimeDefault
+
+securityContext:
+  allowPrivilegeEscalation: false
+  capabilities:
+    drop:
+      - ALL
+  readOnlyRootFilesystem: false
+
+# Service configuration
+service:
+  type: ClusterIP
+  port: 3000
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-type: "nlb"  # If using AWS
+
+# Production resource limits
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1Gi
+  requests:
+    cpu: 500m
+    memory: 512Mi
+
+# Enable health checks
+livenessProbe:
+  enabled: true
+  path: /health
+  initialDelaySeconds: 30
+  periodSeconds: 10
+  timeoutSeconds: 5
+  successThreshold: 1
+  failureThreshold: 3
+
+readinessProbe:
+  enabled: true
+  path: /ready
+  initialDelaySeconds: 10
+  periodSeconds: 5
+  timeoutSeconds: 3
+  successThreshold: 1
+  failureThreshold: 3
+
+# Enable autoscaling
+autoscaling:
+  enabled: true
+  minReplicas: 3
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 70
+  targetMemoryUtilizationPercentage: 80
+
+# Networking with Istio for production
+networking:
+  type: istio
+  istio:
+    virtualService:
+      hosts:
+        - "terminology.production.gravitatehealth.eu"
+      gateways:
+        - production-gateway
+      http:
+        - match:
+            - uri:
+                prefix: /terminologies/
+          rewrite:
+            uri: "/"
+          timeout: 30s
+          retries:
+            attempts: 3
+            perTryTimeout: 10s
+            retryOn: "5xx,reset,connect-failure,refused-stream"
+
+# Node affinity for production workloads
+affinity:
+  podAntiAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 100
+        podAffinityTerm:
+          labelSelector:
+            matchExpressions:
+              - key: app.kubernetes.io/name
+                operator: In
+                values:
+                  - terminology-service
+          topologyKey: kubernetes.io/hostname
+
+# Tolerations for dedicated node pools (example)
+# tolerations:
+#   - key: "workload"
+#     operator: "Equal"
+#     value: "production"
+#     effect: "NoSchedule"
+
+# Node selector for production nodes (example)
+# nodeSelector:
+#   workload: production
+#   zone: us-east-1a

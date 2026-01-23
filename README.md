@@ -40,22 +40,104 @@ docker run -p 3000:3000 --name terminologies terminologies
 This command will respond with the port that its being used to run. In this example [http://localhost:3000](http://localhost:3000)
 
 
-### Kubernetes deployment
+### Kubernetes Deployment
 
-For deploying the terminology module on kubernetes first apply the [001_terminology-deployment.yaml](https://github.com/Gravitate-Health/terminology/blob/main/YAMLs/001_terminology-deployment.yaml)
+The terminology service can be deployed to Kubernetes using either Helm (recommended) or raw Kubernetes manifests.
+
+#### Deploy via Helm (OCI) - Recommended
+
+The service is packaged as a Helm chart and can be deployed directly from the OCI registry without cloning the repository:
 
 ```bash
-kubectl apply -f ./YAML/001_terminology-deployment.yaml
+# Login to GitHub Container Registry (if private)
+helm registry login ghcr.io -u <your-github-username>
+
+# Deploy directly from the OCI registry
+helm install terminology-service oci://ghcr.io/gravitate-health/charts/terminology-service --version 0.1.0
+
+# Or with custom values
+helm install terminology-service oci://ghcr.io/gravitate-health/charts/terminology-service \
+  --version 0.1.0 \
+  --set image.tag=v0.10.0 \
+  --set replicaCount=2
 ```
-Once the deployment is running, apply the service [002_terminology-svc.yaml](https://github.com/Gravitate-Health/terminology/blob/main/YAMLs/002_terminology-svc.yaml)
 
+**Using a custom values file:**
 ```bash
-kubectl apply -f ./YAML/002_terminology-svc.yaml
+# Create a values override file
+cat > custom-values.yaml <<EOF
+replicaCount: 2
+image:
+  tag: v0.10.0
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+networking:
+  type: istio  # or "ingress" or "none"
+EOF
+
+# Deploy with custom values
+helm install terminology-service oci://ghcr.io/gravitate-health/charts/terminology-service \
+  --version 0.1.0 \
+  -f custom-values.yaml
 ```
-Finally apply the virtual service [003_terminology-vs.yaml](https://github.com/Gravitate-Health/terminology/blob/main/YAMLs/003_terminology-vs.yaml)
+
+**Helm chart configuration:**
+
+The chart supports multiple networking modes via the `networking.type` value:
+- `istio` (default): Uses Istio VirtualService/Gateway for service mesh environments
+- `ingress`: Uses standard Kubernetes Ingress
+- `none`: Service only (no external routing)
+
+Key configuration options in `values.yaml`:
+- `image.repository` / `image.tag`: Container image details
+- `replicaCount`: Number of pod replicas
+- `resources`: CPU/memory requests and limits
+- `networking.type`: Networking strategy (istio/ingress/none)
+- `networking.istio.virtualService`: Istio routing configuration
+- `networking.ingress`: Standard ingress configuration
+
+#### Local Helm Development
+
+For local development and testing of the Helm chart:
 
 ```bash
-kubectl apply -f ./YAML/003_terminology-vs.yaml
+# Lint the chart for issues
+helm lint charts/terminology-service
+
+# Test template rendering without installing
+helm template terminology-service charts/terminology-service
+
+# Install from local chart
+helm install terminology-service charts/terminology-service
+
+# Upgrade existing release
+helm upgrade terminology-service charts/terminology-service
+
+# Dry-run to see what would be deployed
+helm install terminology-service charts/terminology-service --dry-run --debug
+```
+
+#### Deploy with Raw Kubernetes Manifests (Legacy)
+
+For deploying the terminology module on kubernetes using raw manifests, first apply the [001_terminology-deployment.yaml](kubernetes/base/001_terminology-deployment.yaml):
+
+```bash
+kubectl apply -f ./kubernetes/base/001_terminology-deployment.yaml
+```
+Once the deployment is running, apply the service [002_terminology-svc.yaml](kubernetes/base/002_terminology-svc.yaml):
+
+```bash
+kubectl apply -f ./kubernetes/base/002_terminology-svc.yaml
+```
+Finally apply the virtual service [003_terminology-vs.yaml](kubernetes/base/003_terminology-vs.yaml):
+
+```bash
+kubectl apply -f ./kubernetes/base/003_terminology-vs.yaml
 ```
 
 Enviroment variables

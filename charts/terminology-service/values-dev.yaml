@@ -1,0 +1,54 @@
+# Development values for terminology-service
+# This file contains development environment configuration
+
+# Single replica for development
+replicaCount: 1
+
+image:
+  repository: gravitate-registry.cr.de-fra.ionos.com/terminology-service
+  pullPolicy: Always  # Always pull latest in development
+  tag: "latest"  # Use latest tag in development
+
+serviceAccount:
+  create: true
+
+# Minimal resources for development
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+# Use standard Kubernetes Ingress for easier local development
+networking:
+  type: ingress
+  ingress:
+    className: nginx
+    annotations:
+      nginx.ingress.kubernetes.io/rewrite-target: /
+      nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    hosts:
+      - host: terminology-dev.local
+        paths:
+          - path: /
+            pathType: Prefix
+
+# Disable autoscaling in development
+autoscaling:
+  enabled: false
+
+# Relaxed health checks for development
+livenessProbe:
+  enabled: false
+
+readinessProbe:
+  enabled: false
+
+# Development environment variables
+env:
+  - name: NODE_ENV
+    value: "development"
+  - name: LOG_LEVEL
+    value: "debug"

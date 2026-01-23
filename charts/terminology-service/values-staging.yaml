@@ -1,0 +1,72 @@
+# Staging values for terminology-service
+# This file mirrors production but with reduced resources
+
+replicaCount: 2
+
+image:
+  repository: gravitate-registry.cr.de-fra.ionos.com/terminology-service
+  pullPolicy: IfNotPresent
+  tag: "v0.10.0"
+
+serviceAccount:
+  create: true
+
+podSecurityContext:
+  runAsNonRoot: true
+  runAsUser: 1000
+  fsGroup: 1000
+
+securityContext:
+  allowPrivilegeEscalation: false
+  capabilities:
+    drop:
+      - ALL
+
+# Moderate resources for staging
+resources:
+  limits:
+    cpu: 750m
+    memory: 768Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+livenessProbe:
+  enabled: true
+  path: /health
+  initialDelaySeconds: 20
+  periodSeconds: 10
+
+readinessProbe:
+  enabled: true
+  path: /ready
+  initialDelaySeconds: 10
+  periodSeconds: 5
+
+# Autoscaling with conservative limits
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 75
+
+# Staging networking with Istio
+networking:
+  type: istio
+  istio:
+    virtualService:
+      hosts:
+        - "terminology.staging.gravitatehealth.eu"
+      gateways:
+        - staging-gateway
+      http:
+        - match:
+            - uri:
+                prefix: /terminologies/
+          rewrite:
+            uri: "/"
+          timeout: 30s
+
+env:
+  - name: NODE_ENV
+    value: "staging"

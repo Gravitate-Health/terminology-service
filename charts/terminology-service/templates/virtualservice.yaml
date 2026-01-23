@@ -1,0 +1,54 @@
+{{- if eq .Values.networking.type "istio" }}
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: {{ include "terminology-service.fullname" . }}
+  labels:
+    {{- include "terminology-service.labels" . | nindent 4 }}
+spec:
+  hosts:
+  {{- range .Values.networking.istio.virtualService.hosts }}
+  - {{ . | quote }}
+  {{- end }}
+  gateways:
+  {{- range .Values.networking.istio.virtualService.gateways }}
+  - {{ . }}
+  {{- end }}
+  http:
+  {{- range .Values.networking.istio.virtualService.http }}
+  - match:
+    {{- range .match }}
+    - uri:
+        {{- if .uri.prefix }}
+        prefix: {{ .uri.prefix }}
+        {{- end }}
+        {{- if .uri.exact }}
+        exact: {{ .uri.exact }}
+        {{- end }}
+        {{- if .uri.regex }}
+        regex: {{ .uri.regex }}
+        {{- end }}
+    {{- end }}
+    {{- if .rewrite }}
+    rewrite:
+      {{- if .rewrite.uri }}
+      uri: {{ .rewrite.uri | quote }}
+      {{- end }}
+    {{- end }}
+    {{- if .timeout }}
+    timeout: {{ .timeout }}
+    {{- end }}
+    {{- if .retries }}
+    retries:
+      {{- toYaml .retries | nindent 6 }}
+    {{- end }}
+    route:
+    - destination:
+        host: {{ include "terminology-service.fullname" $ }}.{{ $.Release.Namespace }}.svc.cluster.local
+        port:
+          number: {{ $.Values.service.port }}
+      {{- if .weight }}
+      weight: {{ .weight }}
+      {{- end }}
+  {{- end }}
+{{- end }}

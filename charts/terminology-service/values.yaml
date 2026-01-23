@@ -1,0 +1,212 @@
+# Default values for terminology-service.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# Number of replicas for the deployment
+replicaCount: 1
+
+# Image configuration
+image:
+  # Container image repository
+  repository: gravitate-registry.cr.de-fra.ionos.com/terminology-service
+  # Image pull policy. Options: Always, IfNotPresent, Never
+  pullPolicy: Always
+  # Overrides the image tag whose default is the chart appVersion
+  tag: "v0.10.0"
+
+# Image pull secrets for private registries
+imagePullSecrets: []
+# - name: myregistrykey
+
+# Override the default name
+nameOverride: ""
+# Override the full name
+fullnameOverride: ""
+
+# Service account configuration
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: ""
+
+# Annotations to add to the pod
+podAnnotations: {}
+
+# Security context for the pod
+podSecurityContext: {}
+  # fsGroup: 2000
+
+# Security context for the container
+securityContext: {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+
+# Service configuration
+service:
+  # Service type. Options: ClusterIP, NodePort, LoadBalancer
+  type: ClusterIP
+  # Service port
+  port: 3000
+  # Annotations to add to the service
+  annotations: {}
+  # ClusterIP address (optional, for ClusterIP type)
+  clusterIP: ""
+  # NodePort (optional, for NodePort type)
+  nodePort: ""
+
+# Networking configuration
+# ========================================================================
+# IMPORTANT: Configure the networking type for your environment
+# ========================================================================
+# Options:
+#   - "istio": Use Istio VirtualService/Gateway (recommended for service mesh)
+#   - "ingress": Use standard Kubernetes Ingress
+#   - "none": No ingress/routing (service only)
+networking:
+  type: "istio"  # Default to Istio as per existing manifests
+  
+  # Istio-specific configuration (used when networking.type = "istio")
+  istio:
+    # VirtualService configuration
+    virtualService:
+      # Hosts that the VirtualService will match
+      hosts:
+        - "*"
+      # Gateways to attach to
+      # Note: "gh-gateway" is referenced from existing manifests
+      # This gateway should exist in your cluster or be created separately
+      gateways:
+        - gh-gateway
+      # HTTP routing rules
+      http:
+        - match:
+            - uri:
+                prefix: /terminologies/
+          rewrite:
+            uri: "/"
+          # Optional: Add timeout (e.g., "30s")
+          # timeout: "30s"
+          # Optional: Add retry policy
+          # retries:
+          #   attempts: 3
+          #   perTryTimeout: "10s"
+    
+    # Gateway configuration (optional - only if you want this chart to create the gateway)
+    gateway:
+      # Set to true to create a Gateway resource
+      enabled: false
+      # Selector for the Istio ingress gateway
+      selector:
+        istio: ingressgateway
+      # Server configuration
+      servers:
+        - port:
+            number: 80
+            name: http
+            protocol: HTTP
+          hosts:
+            - "*"
+  
+  # Ingress configuration (used when networking.type = "ingress")
+  ingress:
+    # Ingress class name (e.g., "nginx", "traefik")
+    className: ""
+    # Annotations for the ingress resource
+    annotations: {}
+      # kubernetes.io/ingress.class: nginx
+      # cert-manager.io/cluster-issuer: letsencrypt-prod
+      # nginx.ingress.kubernetes.io/rewrite-target: /
+    # Hosts configuration
+    hosts:
+      - host: terminology-service.example.com
+        paths:
+          - path: /
+            pathType: Prefix
+    # TLS configuration
+    tls: []
+    #  - secretName: terminology-tls
+    #    hosts:
+    #      - terminology-service.example.com
+
+# Resource limits and requests
+resources: {}
+  # We usually recommend not to specify default resources and to leave this as a conscious
+  # choice for the user. This also increases chances charts run on environments with little
+  # resources, such as Minikube. If you do want to specify resources, uncomment the following
+  # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
+  # limits:
+  #   cpu: 500m
+  #   memory: 512Mi
+  # requests:
+  #   cpu: 250m
+  #   memory: 256Mi
+
+# Liveness probe configuration
+livenessProbe:
+  enabled: false
+  path: /health
+  initialDelaySeconds: 30
+  periodSeconds: 10
+  timeoutSeconds: 5
+  successThreshold: 1
+  failureThreshold: 3
+
+# Readiness probe configuration
+readinessProbe:
+  enabled: false
+  path: /ready
+  initialDelaySeconds: 10
+  periodSeconds: 5
+  timeoutSeconds: 3
+  successThreshold: 1
+  failureThreshold: 3
+
+# Environment variables (optional)
+env: []
+  # - name: NODE_ENV
+  #   value: "production"
+  # - name: LOG_LEVEL
+  #   value: "info"
+
+# Environment variables from ConfigMap or Secret (optional)
+envFrom: []
+  # - configMapRef:
+  #     name: terminology-config
+  # - secretRef:
+  #     name: terminology-secrets
+
+# ConfigMap configuration
+configMap:
+  # Enable ConfigMap creation
+  enabled: false
+  # Data to include in ConfigMap
+  data: {}
+    # config.json: |
+    #   {
+    #     "key": "value"
+    #   }
+
+# Node selector for pod assignment
+nodeSelector: {}
+
+# Tolerations for pod assignment
+tolerations: []
+
+# Affinity for pod assignment
+affinity: {}
+
+# Autoscaling configuration (optional)
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80
