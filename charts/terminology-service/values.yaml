@@ -8,7 +8,7 @@ replicaCount: 1
 # Image configuration
 image:
   # Container image repository
-  repository: gravitate-registry.cr.de-fra.ionos.com/terminology-service
+  repository: ghcr.io/gravitate-health/terminology-service
   # Image pull policy. Options: Always, IfNotPresent, Never
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion

@@ -141,7 +141,7 @@ networking:
 | Parameter | Description | Default |
 |-----------|-------------|---------|
 | `replicaCount` | Number of pod replicas | `1` |
-| `image.repository` | Container image repository | `gravitate-registry.cr.de-fra.ionos.com/terminology-service` |
+| `image.repository` | Container image repository | `ghcr.io/gravitate-health/terminology-service` |
 | `image.tag` | Container image tag | `v0.10.0` |
 | `image.pullPolicy` | Image pull policy | `Always` |
 | `service.type` | Kubernetes service type | `ClusterIP` |

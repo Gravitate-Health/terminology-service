@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: gravitate-registry.cr.de-fra.ionos.com/terminology-service
+  repository: ghcr.io/gravitate-health/terminology-service
   pullPolicy: Always  # Always pull latest in development
   tag: "latest"  # Use latest tag in development
 
