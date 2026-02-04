@@ -21,19 +21,9 @@ resources:
     cpu: 100m
     memory: 128Mi
 
-# Use standard Kubernetes Ingress for easier local development
+# Use Istio for development to match production environment
 networking:
-  type: ingress
-  ingress:
-    className: nginx
-    annotations:
-      nginx.ingress.kubernetes.io/rewrite-target: /
-      nginx.ingress.kubernetes.io/ssl-redirect: "false"
-    hosts:
-      - host: terminology-dev.local
-        paths:
-          - path: /
-            pathType: Prefix
+  type: istio
 
 # Disable autoscaling in development
 autoscaling:
