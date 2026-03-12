@@ -98,22 +98,6 @@ networking:
           # retries:
           #   attempts: 3
           #   perTryTimeout: "10s"
-    
-    # Gateway configuration (optional - only if you want this chart to create the gateway)
-    gateway:
-      # Set to true to create a Gateway resource
-      enabled: false
-      # Selector for the Istio ingress gateway
-      selector:
-        istio: ingressgateway
-      # Server configuration
-      servers:
-        - port:
-            number: 80
-            name: http
-            protocol: HTTP
-          hosts:
-            - "*"
   
   # Ingress configuration (used when networking.type = "ingress")
   ingress:
